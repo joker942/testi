@@ -1,0 +1,610 @@
+﻿
+/* page layout - article */
+.page-article, .page-wp {font-family:'Tahoma', Arial, Helvetica, sans-serif;font-size:13px;line-height:23px; padding-bottom:20px;}
+.ms-rtestate-field p, p.ms-rteElement-P {line-height:23px;}
+.page-article .article-date {margin-top:-35px;font-size:92.3%;color:#666;margin-bottom:10px;}
+.page-article .article-byline {display:none;}
+.page-article.article-right .article-image {float:right;max-width:460px;}
+.page-article.article-left .article-image {float:left;max-width:460px;}
+.page-article.article-center .article-image {float:none;max-width:700px;text-align:center}
+
+.page-article.article-right .article-image img{margin:20px 0 10px 20px;max-width:460px;}
+.page-article.article-left .article-image img{margin:20px 20px 10px 0;max-width:460px;}
+.page-article.article-center .article-image  img{margin:20px 0 10px 0;max-width:700px;}
+
+/*.page-article figcaption {text-align:center;}
+.page-article.article-right .article-image figcaption p {background:#ebebeb;margin:0px auto 10px auto;padding:5px 20px;display:inline-block !important;text-align:center;max-width:400px;}
+.page-article.article-left .article-image figcaption p {background:#ebebeb;margin:0px auto 10px auto;padding:5px 20px;display:inline-block !important;text-align:center;max-width:400px;}
+.page-article.article-center .article-image figcaption p {background:#ebebeb;margin:0px auto 10px auto;padding:5px 20px;display:inline-block !important;text-align:center;max-width:400px;}
+*/
+.page-article li {list-style-position:inside;}
+
+/* old design overide */
+.BreadCrumbs {display:none;}
+.BigBox-Bottom {display:none;}
+
+/* internal page styles */
+.desc{padding:5px 0}
+.Image-grid{overflow:hidden}
+.mainImg{float:right;width:460px;}
+.SideImgTop{float:left;width:220px;margin:0 0 14px 0}
+.SideImgBottom{float:left;width:220px;}
+
+/* Messages style */
+.Hint-style1{background:#ebebeb;color:#000;padding:15px;margin:0 0 20px;}
+.Hint-style2{background:#b2944d;color:#fff;padding:20px;margin:0 0 20px;;position:relative;}
+.Hint-style2 i.icon-info-sign{display: block;   float: right;   font-size: 40px;   padding: 0 10px 0 25px;}
+.Hint-style3{background:#ebebeb; color:#333; padding:20px;margin:0 0 20px;;position:relative;}
+.Hint-style3 i.icon-warning-sign{display: block;   float: right;   font-size: 40px;   padding: 0 10px 0 25px; color:#a72e18}
+.Error-Msg{background:#a72e18;color:#fff;padding:20px;margin:0 0 20px;position:relative;}
+.Error-Msg i.icon-warning-sign{display: block;   float: right;   font-size: 40px;   padding: 0 10px 0 25px;}
+.success-Msg{background:#2f931c;color:#fff;padding:20px;margin:0 0 20px;position:relative;}
+.success-Msg i.icon-ok{display: block;   float: right;   font-size: 40px;   padding: 0 10px 0 25px;}
+.Error-Msg i.icon-remove,
+.success-Msg i.icon-remove,
+.Hint-style2 i.icon-remove,
+.Hint-style3 i.icon-remove{position:absolute;top:5px;left:5px;font-size: 20px;cursor:pointer}
+
+/* news landing */ 
+.page-wp h3.news-landing-h3 {background:#2d2d2d;height:28px;line-height:28px;color:#fff;font-size:14px;padding:0 13px;font-weight:normal;margin:0;border-bottom:1px solid #fff;margin-bottom:10px;}
+
+/* News listing style*/
+.News .rightPost{float:left;width:525px}
+.News .News-tittel a{font-size:107.7%;line-height: 24px;font-family: droid_arabic_kufiregular;font-weight:bold;}
+.News-polit a{font-size:107.7%;line-height: 24px;font-family: droid_arabic_kufiregular;font-weight:bold;}
+.News .News-descF a{}
+.News .leftPost{float:right;width:170px}
+.News .leftPost img{height: 100px;   margin: 0 10px 0 20px;   width: 140px;}
+.News-TP.tittel{background: #BB9F60; color:#FFF; font-family: droid_arabic_kufibold; font-size: 21px; margin: 1px 0 20px; min-height: 35px; padding: 10px;}
+.News-D{ border-bottom: 1px solid #CCC;   margin: 0 0 20px;   padding: 0 0 10px;}
+#linkitem{margin:0 0 10px;}
+.MoreNews2{text-align:left;padding:10px 0;border-top:1px solid #DDCFAF;margin-top:-20px;}
+.MoreNews2 a{font-family: droid_arabic_kufiregular;}
+.rightNoImg .News-tittel a{font-size:107.7%;color:#333;padding-right:10px;background:url("../images/bullets.png") no-repeat scroll right 7px;display:block}
+.sample-content2 .rightNoImg .News-tittel a{background:none;padding:0}
+.rightNoImg .News-tittel a i{display:none;}
+.rightNoImg .News-tittel a:hover{color:#a9873c}
+.sample-content2 .rightNoImg .News-tittel a{font-size:107.7%;line-height:20px;color:#A9873C}
+.sample-content1 #linkitem{margin:0}
+
+/*  Paging style  */
+.PageLinksTD a,.PageLinksTD span{padding:5px 10px; background:#d6d6d6; font:107.7% tahoma;display:inline-block;margin:0 2px;color:#000}
+.PageLinksTD span,.PageLinksTD a:hover{background:#000;color:#fff}
+.pagingTable{text-align:center;margin:10px auto}
+.FirstTD a,.PrevTD a,.NextTD a,.LastTD a{padding:5px 10px;color:#000}
+
+/* Form style */
+.Table-control  {width:100%;margin:0 0 20px}
+.Table-control .Tittel-Content {background: #2D2D2D; border-bottom: 1px solid #FFF;color: #FFF; font-size: 107.7%; font-weight: normal;line-height: 28px; margin: 0 0 20px; padding: 0 13px;}
+.Table-control td{padding:5px 0}
+.Table-control .TittelField{width:160px;font-size:12px;vertical-align:top;padding-top:10px}
+.required, .coloredTxt{color:#ff0000}
+.Table-control .TextBox-Field,.Table-control .TextBox-Field-2{font:107.7%/20px tahoma;background:#ebebeb;border:1px solid #b5b5b5;height:25px;width:460px}
+span.hintlabel{display: block;direction: rtl;}
+.Table-control .DropDownList-2{font:107.7%/20px tahoma;background:#ebebeb;border:1px solid #b5b5b5;height:29px;width:220px;padding:2px 3px 2px}
+.Table-control .TextBox{font:107.7%/20px tahoma; background:#ebebeb; border:1px solid #b5b5b5; width:463px; padding:0 3px 3px;height:114px;}
+.Table-control .attach{margin:0 0 10px;width:220px;border:1px solid #B5B5B5;background:#EBEBEB;}
+.Butt-format-vote,.BTNs{background:#bb9f60;color:#fff;font:12px/24px droid_arabic_kufiregular;padding:0 10px;margin:0 10px 10px 0;border:none;min-width:117px;float:left;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.Butt-format-vote:hover,.BTNs:hover{background:#7d6836}
+.Butt-format-vote:disabled,.BTNs:disabled{background:#d6d6d6;color:#999;}
+.cancel-btn{background:#a72e18;color:#fff;} .cancel-btn:hover{background:#752011}
+.other-btn{background:#333;color:#fff;} .other-btn:hover{background:#707070}
+.TxtBoxField label{padding:0 0 0 10px}
+.table-title{font:16px/24px droid_arabic_kufiregular;color:#a9873c;border-bottom:1px solid #2d2d2d;padding:0 0 10px}
+.content-field,.title-field{padding:10px;vertical-align:top}
+.content-field{color:#666;line-height:24px}
+.title-field{color:#a9873c;padding-top:8px!important}
+.mandatory-hint{padding:10px 0 0;margin:20px 0;color:#000;border-top:1px solid #2d2d2d}
+
+/* data table style  */
+.data-table {margin:0 0 20px}
+.data-table td{padding:10px;font:13px tahoma;text-align:center;background:#ebebeb;border:2px solid #fff}
+.data-table tr.table-head td{font:14px/20px droid_arabic_kufiregular;background:#bb9f60;color:#fff;font-weight:100;}
+.data-table tr.table-title td{background:#666;color:#fff;font:14px/20px droid_arabic_kufiregular;text-align:right;font-weight:700;border:none;}
+
+/*  weather-pages  */
+.weather-pages{}
+.weather-pages table{width:100%}
+.weather-pages .ContinentsTopBarTBL {margin:20px 0 10px}
+.weather-pages .ContinentsTopBarTBL td{padding:0 0 0 2px}
+.weather-pages .ContinentsTopBarTBL a{background:#707070;color:#fff;padding:8px 26px;display:block;text-align:center;font-family:droid_arabic_kufibold}
+.weather-pages .BigBox-top.tittel{background:#dedede;color:#333;padding:9px;font-family:droid_arabic_kufibold;margin:0 0 10px;}
+.weather-pages .DataTable table td{background:#d6d6d6;border-top:2px solid #fff;padding:5px;text-align:center;border-bottom:6px solid #fff;border-left:1px solid #fff;color:#333;font-family:tahoma}
+.weather-pages .DataTable table td a{color:#333}
+.weather-pages .DataTable table td.HeadCountryTD{background:#818181;padding:11px 10px;color:#fff;text-align:center;font-family:droid_arabic_kufibold}
+.weather-pages .DataTable table td.DegreeTDTitle{background:#bca571;padding:7px;color:#fff;font-size:12px;text-align:center;font-family:tahoma;font-weight:700; border:1px solid #fff}
+.weather-pages .formTBL {margin:20px 0}
+.weather-pages .formTBL{width:auto}
+.weather-pages .formTBL .DropDownDiv select{font:14px/20px tahoma;background:#ebebeb;border:1px solid #b5b5b5;height:29px;width:220px;padding:0 3px 3px}
+.GoBtn{background:#bb9f60; color:#fff;font:12px/24px droid_arabic_kufiregular; padding:0 10px; margin:0 10px 0 0;border:none;float:left;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.GoBtn:hover{background:#7d6836}
+.weather-pages .TBLLinksCountry {margin:0 40px 20px 0}
+.weather-pages .TBLLinksCountry h1{color:#333}
+.weather-pages .TBLLinksCountry .Country_Links{padding:8px 20px 8px 0;background:url(../images/bullets.png) no-repeat right;color:#aa863c;font:bold 13px/20px tahoma}
+.weather-pages .tablebgcolor_w table table td{text-align:center;background:#d6d6d6;padding:6px 2px;border:1px solid #fff}
+.weather-pages .tablebgcolor_w table table td.HeadCountryTD{background: none repeat scroll 0 0 #DEDEDE;color: #333;   font-family: droid_arabic_kufibold;   font-size: 13px;   margin: 0 0 10px;   padding: 9px;}
+.weather-pages .tablebgcolor_w td.SevenDayDays{background:#818181;padding:11px 10px;color:#fff;text-align:center;font-family:droid_arabic_kufibold;border-left:1px solid #fff}
+.weather-pages .tablebgcolor_w td.SevenDayDaysToday{background:#818181;padding:11px 10px;color:#fff;text-align:center;font-family:droid_arabic_kufibold}
+.weather-pages .tablebgcolor_w td.Days{background:#bca571;padding:7px;color:#fff;font-size:12px;text-align:center;font-weight:700; }
+
+
+/* RTE custom styles */
+H1.mofa-Element-H1A{-ms-name:"عنوان رئيسي 1";font:normal 215.4%/246.2% 'droid_arabic_kufibold',arial;color:#a9873c;background:#fff}
+H2.mofa-Element-H2A{-ms-name:"عنوان للموضوع 1";font:normal 200%/230.8% 'droid_arabic_kufiregular',arial;color:#333;background:#fff}
+H3.mofa-Element-H3A{-ms-name:"عنوان فرعي أول 1";font:normal 184.6%/215.4% 'droid_arabic_kufibold',arial;color:#a9873c;background:#fff}
+H4.mofa-Element-H4A{-ms-name:"عنوان فرعي ثاني 1";font:normal 169.2%/184.6% 'droid_arabic_kufiregular',arial;color:#333;background:#fff}
+H5.mofa-Element-H5A{-ms-name:"عنوان تقسيم أو جزئي 1";font:normal 138.5%/169.2% 'droid_arabic_kufibold',arial;color:#a9873c;background:#fff}
+H6.mofa-Element-H6A{-ms-name:"عنوان للبيانات والهوامش 1";font:normal 123.1%/153.8% 'droid_arabic_kufiregular',arial;color:#333;background:#fff}
+H1.mofa-Element-H1B{-ms-name:"عنوان رئيسي 2";font:normal 123.1%/153.8% 'droid_arabic_kufibold',arial;color:#fff;background:#bb9f60;border-bottom:3px solid #fff;padding:15px 20px}
+H2.mofa-Element-H2B{-ms-name:"عنوان للموضوع 2";font:normal 200%/230.8% 'droid_arabic_kufiregular',arial;color:#fff;background:#333;border-bottom:3px solid #fff;padding:15px 20px}
+H3.mofa-Element-H3B{-ms-name:"عنوان فرعي أول 2";font:normal 184.6%/215.4% 'droid_arabic_kufibold',arial;color:#333;background:#ddcfaf;border-bottom:3px solid #fff;padding:15px 20px}
+H4.mofa-Element-H4B{-ms-name:"عنوان فرعي ثاني 2";font:normal 169.2%/184.6% 'droid_arabic_kufiregular',arial;color:#a9873c;background:#fff;border-bottom:3px solid #333;padding:15px 20px}
+H5.mofa-Element-H5B{-ms-name:"عنوان تقسيم أو جزئي 2";font:normal 138.5%/169.2% 'droid_arabic_kufibold',arial;color:#333;background:#fff;border-bottom:2px solid #bb9f60;padding:15px 20px}
+H6.mofa-Element-H6B{-ms-name:"عنوان للبيانات والهوامش 2";font:normal 123.1%/153.8% 'droid_arabic_kufiregular',arial;color:#a9873c;background:#fff;border-bottom:1px solid #333;padding:15px 20px}
+P.mofa-Element-P{-ms-name:"فقرة";-ms-element:"true"}
+.mofa-Style-Normal{-ms-name:"عادي"}
+.mofa-Style-Quote{-ms-name:"اقتباس";color:#a9873c;font:normal 138.5%/230.8% 'droid_arabic_kufiregular',arial;background:#fff;display:inline-block;padding:10px}
+.mofa-Style-IntenseQuote{-ms-name:"اقتباس مكثف";color:#fff;font:normal 138.5%/230.8% 'droid_arabic_kufiregular',arial;background:#bb9f60;display:inline-block;padding:10px}
+.mofa-Style-Emphasis{-ms-name:"توكيد";color:#a9873c;font-style:italic}
+.mofa-Style-IntenseEmphasis{-ms-name:"تأكيد مكثف";background:#bb9f60;font-style:italic;color:#fff}
+.mofa-Style-References{-ms-name:"مرجع";font-weight:bold;color:#666}
+.mofa-Style-IntenseReferences{-ms-name:"مرجع مكثف";font-weight:bold;color:#333}
+.mofa-Style-Accent1{-ms-name:"التمييز 1";color:#a72e18}
+.mofa-Style-Accent2{-ms-name:"التمييز 2";color:#2f931c}
+.mofa-ForeColor-1{color:#2d2d2d;-ms-name:"";-ms-color:"رصاصي"}
+.mofa-ForeColor-2{color:#666;-ms-name:"";-ms-color:"رصاصي فاتح"}
+.mofa-ForeColor-3{color:#a9873c;-ms-name:"";-ms-color:"ذهبي"}
+.mofa-ForeColor-4{color:#a72e18;-ms-name:"";-ms-color:"أحمر"}
+.mofa-ForeColor-5{color:#2f931c;-ms-name:"";-ms-color:"أخضر"}
+.mofa-BackColor-1{background:#2d2d2d;-ms-name:"";-ms-color:"رصاصي"}
+.mofa-BackColor-2{background:#666;-ms-name:"";-ms-color:"رصاصي فاتح"}
+.mofa-BackColor-3{background:#bb9f60;-ms-name:"";-ms-color:"ذهبي"}
+.mofa-BackColor-4{background:#a72e18;-ms-name:"";-ms-color:"أحمر"}
+.mofa-BackColor-5{background:#2f931c;-ms-name:"";-ms-color:"أخضر"}
+.mofa-BackColor-6{background:#ddcfaf;-ms-name:"";-ms-color:"ذهبي فاتح"}
+.mofa-BackColor-7{background:#ebebeb;-ms-name:"";-ms-color:"رصاصي فاتح جداً 1"}
+.mofa-BackColor-8{background:#d6d6d6;-ms-name:"";-ms-color:"رصاصي فاتح جداً 2"}
+.mofa-FontFace-1{-ms-name:"Tahoma";font-family:Tahoma,sans-serif}
+.mofa-FontFace-2{-ms-name:"Droid Arabic Kufi Regular";font-family:"droid_arabic_kufiregular",Arial}
+.mofa-FontFace-3{-ms-name:"Droid Arabic Kufi Bold";font-family:"droid_arabic_kufibold",Arial}
+.mofa-FontSize-1{font-size:0.769em}
+.mofa-FontSize-2{font-size:0.923em}
+.mofa-FontSize-0{font-size:1em}
+.mofa-FontSize-3{font-size:1.077em}
+.mofa-FontSize-4{font-size:1.231em}
+.mofa-FontSize-5{font-size:1.385em}
+.mofa-FontSize-6{font-size:1.692em}
+.mofa-FontSize-7{font-size:2.00em}
+.mofa-FontSize-8{font-size:2.462em}
+.article-text ul{padding:0;margin:0 10px;line-height:25px}
+.article-text ul li {list-style:none;padding:5px 15px 5px 5px;display:block;background:url("../images/bullets.png") no-repeat scroll right 15px;}
+.article-text ul ul li {list-style:square;display:list-item;background:none;padding:5px;}
+/* page headings */
+.page-content H1{font:normal 215.4%/186.2% 'droid_arabic_kufibold',arial;color:#a9873c;background:#fff;margin-bottom:10px;}
+.page-content H2{font:normal 200%/180.8% 'droid_arabic_kufiregular',arial;color:#333;background:#fff;margin-bottom:10px;}
+.page-content H3{font:normal 184.6%/165.4% 'droid_arabic_kufibold',arial;color:#a9873c;background:#fff;margin-bottom:10px;}
+.page-content H4{font:normal 169.2%/144.6% 'droid_arabic_kufiregular',arial;color:#333;background:#fff;margin-bottom:10px;}
+.page-content H5{font:normal 138.5%/119.2% 'droid_arabic_kufibold',arial;color:#a9873c;background:#fff;margin-bottom:10px;}
+.page-content H6{font:normal 123.1%/113.8% 'droid_arabic_kufiregular',arial;color:#333;background:#fff;margin-bottom:10px;}
+.page-content H1.boxed{font:normal 215.4%/32px 'droid_arabic_kufibold',arial;color:#fff;background:#bb9f60;border-bottom:3px solid #fff;padding:15px 20px}
+.page-content H2.boxed{font:normal 200%/32px 'droid_arabic_kufiregular',arial;color:#fff;background:#333;border-bottom:3px solid #fff;padding:15px 20px}
+.page-content H3.boxed{font:normal 184.6%/32px 'droid_arabic_kufibold',arial;color:#333;background:#ddcfaf;border-bottom:3px solid #fff;padding:15px 20px}
+.page-content H4.boxed{font:normal 169.2%/32px 'droid_arabic_kufiregular',arial;color:#a9873c;background:#fff;border-bottom:3px solid #333;padding:15px 20px}
+.page-content H5.boxed{font:normal 138.5%/169.2% 'droid_arabic_kufibold',arial;color:#333;background:#fff;border-bottom:2px solid #bb9f60;padding:15px 20px}
+.page-content H6.boxed{font:normal 123.1%/153.8% 'droid_arabic_kufiregular',arial;color:#a9873c;background:#fff;border-bottom:1px solid #333;padding:15px 20px}
+
+/* page headings */
+.page-wp H1{font:normal 215.4%/246.2% 'droid_arabic_kufibold',arial;color:#a9873c;background:#fff}
+.page-wp H2{font:normal 200%/230.8% 'droid_arabic_kufiregular',arial;color:#333;background:#fff}
+.page-wp H3{font:normal 184.6%/215.4% 'droid_arabic_kufibold',arial;color:#a9873c;background:#fff}
+.page-wp H4{font:normal 169.2%/184.6% 'droid_arabic_kufiregular',arial;color:#333;background:#fff}
+.page-wp H5{font:normal 138.5%/169.2% 'droid_arabic_kufibold',arial;color:#a9873c;background:#fff}
+.page-wp H6{font:normal 123.1%/153.8% 'droid_arabic_kufiregular',arial;color:#333;background:#fff}
+.page-wp H1.boxed{font:normal 215.4%/32px 'droid_arabic_kufibold',arial;color:#fff;background:#bb9f60;border-bottom:3px solid #fff;padding:15px 20px}
+.page-wp H2.boxed{font:normal 200%/32px 'droid_arabic_kufiregular',arial;color:#fff;background:#333;border-bottom:3px solid #fff;padding:15px 20px}
+.page-wp H3.boxed{font:normal 184.6%/32px 'droid_arabic_kufibold',arial;color:#333;background:#ddcfaf;border-bottom:3px solid #fff;padding:15px 20px}
+.page-wp H4.boxed{font:normal 169.2%/32px 'droid_arabic_kufiregular',arial;color:#a9873c;background:#fff;border-bottom:3px solid #333;padding:15px 20px}
+.page-wp H5.boxed{font:normal 138.5%/169.2% 'droid_arabic_kufibold',arial;color:#333;background:#fff;border-bottom:2px solid #bb9f60;padding:15px 20px}
+.page-wp H6.boxed{font:normal 123.1%/153.8% 'droid_arabic_kufiregular',arial;color:#a9873c;background:#fff;border-bottom:1px solid #333;padding:15px 20px}
+
+/* news page */
+.page-MOFA-MainNews .groupheader.item, .page-MOFAOneWPartWellcome  .groupheader.item{display:none;}
+.page-MOFA-MainNews .News-polit {padding:0 10px 0 5px;display:block;background:url("../images/bullets.png") no-repeat scroll right 10px;}
+
+/* sharek page */
+.SharekPost {position:relative;min-height:120px;}
+.SharekPost .floatL {float:right;position:absolute;top:5px;right:0px;}
+.SharekPost .News-tittel  , .SharekPost .News-Sharek  , .SharekPost .DateSharekContainer  {float:left;width:540px;}
+.SharekPost .DateSharekContainer  {margin-bottom:20px;}
+/* ========================================= Start of UID 3 ================================================ */
+
+.MofaListUl p font{font:15px/20px droid_arabic_kufibold}
+.MofaListUl ul li p font{font:13px/15px droid_arabic_kufiregular}
+.MofaListUl h6{ margin:0}
+.MofaListUl blockquote{margin:0} 
+.rightNoImg .News-tittel a{font-size:115%} /* raeplace all 107 in main.css */
+a.back-to-top:hover{text-decoration:none}
+/*  /Minister/Pages/ContactUs.aspx  */
+.Table-control tr td div table{width:100%}
+.Table-control tr td div table tr td.TittelField{width:25%}
+.Table-control tr td div table .DropDownList-2{width:220px!important;}
+.validation-text, span[id*=CustomValidator], span[id*=RequiredFieldValidator]{color:#ff0000;font-weight:normal !important;}
+.Table-control label{font-family:tahoma;padding:0 5px}
+.capatcha_container input[type="text"]{font: 107.7%/20px tahoma; background: #ebebeb;border: 1px solid #b5b5b5;height: 25px!important;width:455px!important;}
+.Table-control input[type="submit"]{   background:#BB9F60; border: none; color: #FFF; font: 92.3%/24px droid_arabic_kufiregular;  transition: all 0.3s ease-in-out 0s;}
+.NewsletterHeader{background: #ebebeb;border-bottom: 1px solid #FFF;color: #333;font-size: 107.7%;font-weight: normal;line-height: 28px;margin: 0 0 20px;padding: 0 13px!important;display:block;text-align:right}
+td.NewsletterHeader{display:table-cell}
+.ms-webpartzone-cell .NewsletterHeader {margin:0;}
+/* MainContactUs/Pages/Feedback.aspx  */
+.Table-control .Tittel-Content{padding:0;background: #ebebeb;color:#333} 
+.Table-control .Tittel-Content span{padding:0 13px}
+.website-listing h4,.website-listing h3,.website-listing h6{margin:10px 0;font: normal 123.1%/153.8% 'droid_arabic_kufiregular',arial; color: #333;background: #fff;}
+
+.website-listing ul li{font:13px/28px droid_arabic_kufiregular}
+.rightNoImg .News-tittel a{color:#b2944d} /* for KingdomForeignPolicy  */
+.PDF-listing {margin:10px 0;padding:0}
+.PDF-listing li{list-style:none;padding:5px 20px 5px 0;background:url("../images/bullets.png") no-repeat scroll right 12px;color:#b2944d;font:110%/24px droid_arabic_kufiregular;overflow:hidden}
+.PDF-listing li a{float:left;font-size:30px}
+.PDF-listing li a:hover{color:#333}
+
+	
+.PDF-listing li{text-align:right}
+.website-listing li a{color:#b2944d!important}
+.News-tittel a{font-size: 115%; line-height: 34px;font-family: droid_arabic_kufiregular;padding-right: 10px;background: url("../images/bullets.png") no-repeat scroll right 15px;display: block;color: #b2944d;}
+.SharekPost .News-tittel a{background-position: right 10px}
+.MofaListUl a{font-size: 115%; line-height: 24px;font-family: droid_arabic_kufiregular; display: block;color: #b2944d;}
+.MofaListUl h4{margin:0 0 10px}
+.rightPost .News-tittel a{background: url("../images/bullets.png") no-repeat right 7px;line-height: 24px;margin-right:-12px;}
+.Pool2 .paddingV div {display:inline-block;float:left}
+.Pool2 .paddingV input[type="submit"]{background: #bb9f60; color: #fff; font-size: 13px; padding: 2px 20px; border-left: 1px solid #c2ab73; display: inline-block; line-height: 22px; float: left; font-family: 'droid_arabic_kufiregular';margin:10px 0 0 10px}
+.Pool2 .padding10{padding:0}
+.PoolBanner{width: auto; height:auto; margin: 0; background:none}
+.Pool2 {width: auto; margin-right: 0; float: none; height: auto; background: none; border: none}
+.PoolBanner{display:none}
+.Pool2 .tittel ,.rowgridvote .tittel ,.altgridvote .tittel {padding:0 0 20px;font:120% droid_arabic_kufibold} 
+.voteing{font:100% droid_arabic_kufiregular}
+.Pool2 .paddingV table table tr td,
+.rowgridvote  table table tr td,
+.altgridvote  table table tr td{background:#ebebeb!important;height:4px !important}
+.Pool2 .paddingV table table tr td:first-child,
+.altgridvote  table table tr td:first-child,
+.rowgridvote  table table tr td:first-child{background:#b2944d!important}
+.Pool2 .paddingV > div,
+.rowgridvote  td > div,
+.altgridvote  td > div{width:100%!important}
+.Pool2 .paddingV > div > table,
+.rowgridvote  td > div > table,
+.altgridvote  td > div > table{width:100%!important}
+.Pool2 .paddingV > div > table td,
+.rowgridvote  td > div > table td,
+.altgridvote  td > div > table td{padding:10px 0}
+.Pool2 .paddingV > div > table td td,
+.altgridvote  td > div > table td td,
+.rowgridvote  td > div > table td td{padding:0}
+.Pool2 label{padding:0 5px}
+.Pool2 .paddingV .paddingV  > div{width:auto!important} 
+.mainvote {font-family:Tahoma;}
+
+/* error and success messages */
+.errorMessage span.ValidationError,.errorMessage span,
+span[id$="lblError"]{min-height:25px!important; height: auto!important; width: auto!important; color: #fff!important; font-size: 13px; padding: 10px 50px 10px 20px; margin: 0 0 20px; position: relative; line-height: 24px; font-family: droid_arabic_kufiregular; display: block; margin: 5px 0 10px;background:url(../images/error-msg.png) no-repeat right 10px #a72e18!important}
+span[id$="lblSuccess"]{min-height:25px!important; height: auto!important; width: auto!important; color: #fff; font-size: 13px; padding: 10px 50px 10px 20px; margin: 0 0 20px; position: relative; line-height: 24px; font-family: droid_arabic_kufiregular; display: block; margin: 5px 0 10px;background:url(../images/successmsg.png) no-repeat right 10px #2f931c!important}
+.successmsg span , .ValidationSucc{min-height:25px!important; height: auto!important; width: auto!important; color: #fff; font-size: 13px; padding: 10px 50px 10px 20px; margin: 0 0 20px; position: relative; line-height: 24px; font-family: droid_arabic_kufiregular; display: block; margin: 5px 0 10px;background:url(../images/successmsg.png) no-repeat right 10px #2f931c!important}
+
+/* ========================================= end of UID 3 ================================================ */
+	
+
+	 
+/* =============================================== UID2 styles==========================================================================*/
+/*embassy - find embassy by country styles*/
+.Tapp-Top-C2>ul{position:absolute;top:-30px;height:10px}
+.Tapp-Top-C2 li{width:100px;list-style:none}
+.Tapp-Top-C2 li a{color:transparent;/*font:0/0 a*/}
+#africa{position:relative;right:271px;top:-298px;z-index:200}
+#africa a:hover,#africa a.selected{background:url('../images/maps/africa.png') 0 0 no-repeat}
+#africa a{display:block;height:89px;width:112px;background:url('/_catalogs/masterpage/MOFA/images/transparent_img.png')}
+#australia{position:relative;right:139px;top:-548px;z-index:200}
+#australia a:hover,#australia a.selected{background:url('../images/maps/australia.png') 0 0 no-repeat}
+#australia a{display:block;height:89px;width:87px;background:url('/_catalogs/masterpage/MOFA/images/transparent_img.png')}
+#europe{position:relative;right:283px;top:-308px;z-index:200}
+#europe a:hover,#europe a.selected{background:url('../images/maps/europe.png') 0 0 no-repeat}
+#europe a{display:block;height:81px;width:139px;background:url('/_catalogs/masterpage/MOFA/images/transparent_img.png')}
+#asia{position:relative;right:139px;top:-173px;z-index:100}
+#asia a:hover,#asia a.selected{background:url('../images/maps/asia.png') 0 0 no-repeat}
+#asia a{display:block;height:135px;width:181px;background:url('/_catalogs/masterpage/MOFA/images/transparent_img.png')}
+#NA{position:relative;right:389px;top:-478px}
+#NA a:hover,#NA a.selected{background:url('../images/maps/na_sa_america.png') 0 0 no-repeat}
+#NA a{display:block;height:181px;width:179px;background:url('/_catalogs/masterpage/MOFA/images/transparent_img.png')}
+#SA{position:relative;right:0;top:0}
+#SA a:hover,#SA a.selected{background:url('../images/maps/na_sa_america.png') 0 0 no-repeat}
+#SA a{display:block;height:75px;width:139px;background:url('/_catalogs/masterpage/MOFA/images/transparent_img.png')}
+.world-map{text-align:center;border-top:0 solid #bb9f60}
+.filter-by-continent{position:absolute}
+.all-letters{background:none repeat scroll 0 0 #bb9f60;margin-top:2px;width:100%}
+.title-all-letters h5,.title-world-map h5{border-bottom:2px solid #bb9f60;color:#333;font-size:138.5%;margin:0}
+.all-letters ul{margin:0;padding:0;text-align:center}
+.filter-by-continent a,.filter-by-continent a :hover{color:transparent}
+.filter-by-continent li{list-style:none}
+.filter-by-continent a:hover,.filter-by-continent a:focus{color:transparent}
+div.filter-by-continent li i.icon-angle-right{margin-left:10px}
+.first-column{width:240px;float:right}
+.all-countries{width:690px;float:left;margin-bottom:10px;}
+.all-countries ul{float:right;padding:0}
+.all-countries li{display:inline-block;float:right;margin-left:0;width:230px;list-style:none;margin-bottom:10px;font-family:droid_arabic_kufiregular;font-size:92.5%;font-weight:normal}
+.all-countries a,.all-countries p{color:#2d2d2d}
+.page-footer{clear:both;margin-top:20px}
+div.all-countries i.icon-angle-right{margin-left:5px}
+.ContryFlag img{display:none}
+.ContryFlag{float:right;width:214px}
+.all-letters li{color:white;cursor:pointer;display:inline-block;margin:0;padding:14px 8px 10px 8px;font-family:droid_arabic_kufiregular;font-size:92.5%;font-weight:normal}
+.all-letters li:hover,.all-letters li.selected{color:white;background-color:#333}
+.all-countries p:hover,.all-countries p.selected,i.icon-angle-right.selected,.all-countries li a:hover,.all-countries a.selected,i.icon-angle-right.selected,.all-countries li i:hover{color:#bb9f60}
+div.TappCot{margin-top:15px}
+div.TappCot p{display:none;float:right;margin:0 0 10px;padding:0;font-family:droid_arabic_kufiregular;font-size:92.5%;font-weight:normal}
+.hide-countries{display:none}
+.show-countries{display:inline-block !important}
+.no-items {text-align:center;padding:50px;}
+.all-countries.newdiv {min-height:150px;}
+/*EOF embassy - find embassy by country styles*/
+
+/*embassy info styles*/
+.page-SaudiMissionsAbroadPageLayout{font-family:droid_arabic_kufiregular}
+.EmbassyUl{width:695px}
+div.EmbassyUl li{list-style:none outside none;color:#a9873c;display:table-row-group}
+div.EmbassyUl li i {color:black;font-size:153.8%;display:inline-block;text-align:center;vertical-align:middle;width:60px;float:right}
+/*#EmbassyAddInfo ul li i,.EmbassyUl2+.EmbassyUl ul li i{display:none}*/
+.EmbassyUl2 div h3+span div,.EmbassyUl2 h3+span{margin-right:20px;margin-bottom:23px}
+div.EmbassyUl li span{color:#666;min-height:30px;padding-left:5px;}
+.embassy-details-title+span+span{display:inline-block;float:right;width:436px;white-space: pre-wrap;white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; }
+.embassy-details-title{display:inline-block;width:145px;color:#9c771f !important;float:right}
+.EmergencyNo{border-bottom:2px solid #393939;width:698px;min-height:40px;padding-bottom:10px;}
+#EmbassyBasicInfo>ul{float:right}
+.EmergencyNo strong,.EmergencyNo span{color:#a9873c !important;font-size:135%;line-height:24px;margin-right:12px;width:500px;margin-bottom:5px;/*float:right;*/max-width:595px}
+.page-SaudiMissionsAbroadPageLayout .EmergencyNo strong {line-height:40px;margin-top:-10px;}
+.EmergencyNo>img{height:30px;width:40px;position:relative;top:-3px;display:inline-block;border:1px solid #393939}
+.embassy-flag{margin-right:5px;margin-top:5px;display:inline !important;float:right;border:1px solid #666;width:40px;height:30px}
+div.EmbassyUl2 span,div.EmbassyUl2 font{color:#a9873c;font-family:'droid_arabic_kufiregular',Arial,Helvetica,sans-serif;font-size:110%}
+.EmbassyUl2 span,.EmbassyUl2 div{font-family:droid_arabic_kufiregular !important;font-size:92.3%;font-weight:normal}
+.EmbassyUl2 br{margin-bottom:28px}
+div.EmbassyUl2 h3{margin:0 0 14px;font-family:droid_arabic_kufiregular;color:#a9873c;font-size:123%;line-height:18px;border-bottom:1px solid #333;padding-bottom:12px;font-weight:normal;padding-right:23px;width:633px}
+div.EmbassyUl2 strong{font-weight:normal !important}
+div.Embassy_Tittel strong{font-weight:normal;font-size:123%;line-height:18px;border-bottom:1px solid #333;margin-top:60px;padding-bottom:10px;display:block;margin-bottom:5px;padding-right:23px}
+.Embassy_Tittel span {color:#A9873C !important;}
+.gray-color{color:#666 !important;font-variant:normal}
+.Embassy_Tittel{margin-bottom:30px}
+.EmbassyUl span#EmbassyAddInfo li,.EmbassyUl2+.EmbassyUl ul li{display:inline-table;margin-right:0/*55px*/;width:100%}
+.info-header{display:table-cell;width:155px}
+.other-info {margin-right:0 !important}
+.other-info li{display:table-row-group;width:100%;min-height:30px}
+.other-info li span{min-height:30px;width:205px;font-size:114%}
+.other-info li span.clearfix{min-height:0 !important;height:5px !important;width:auto !important;display:block !important;}
+.other-info ul{list-style:none outside none;margin:0;padding:0}
+.other-info li i {color:black;font-size:153.8%;display:inline-block;text-align:center;vertical-align:middle;width:60px;float:right}
+.info-header,.info-details{font-size:114%}
+.info-details{color:#666 !important}
+
+.EmbassyUl div , .EmbassyUl2 div, .EmbassyUl span , .EmbassyUl2 span,  .EmbassyUl strong , .EmbassyUl2 strong ,  .EmbassyUl h3 , .EmbassyUl2 h3{font-size:100% !important;}
+
+/*end of embassy info styles*/
+ 
+.weather-pages .DataTable table td.DegreeTDTitle{padding:0!important} /*fix to main.css line 618*/
+
+.head-of-missions-container li a, .E-participation li a, .mofa-social-network li a, .attestation li a, .saudi-national-abroad-services li a, .government-economic-sites li a, .how-to-reach-MOFA li a, .box-list li a{display:block;padding-bottom:10px}
+.mofa-social-network span.clearfix {clear:both;float:none;display:block;}
+.head-of-missions-container span, .E-participation span, .mofa-social-network span, .attestation span, .saudi-national-abroad-services span, .government-economic-sites span, .how-to-reach-MOFA span, .box-list span{width:231px!important;} /*fix import line 117*/
+.head-of-missions-container li i, .E-participation li i, .mofa-social-network li i, .attestation li i, .saudi-national-abroad-services li i, .government-economic-sites li i, .how-to-reach-MOFA li i, .box-list li i{margin-left:20px!important}/*fix import line 110*/
+.service-details-list{display:inline-block;width:97%!important}
+.title-all-letters h5, .title-world-map h5{height:40px;float:right;width:100%}
+.chrome .title-all-letters h5, .chrome .title-world-map h5{padding:0 4px;}  
+.AdvPage {
+float: right;
+margin: 0 4px 10px 0;
+border: 1px #005b3d solid;
+}
+.head-of-missions-container li a:hover, .E-participation li a:hover, .mofa-social-network li a:hover, .attestation li a:hover, .saudi-national-abroad-services li a:hover, .government-economic-sites li a:hover, .how-to-reach-MOFA li a:hover, .box-list li a:hover{transition:all 0.3s ease-in-out;background:#ddcfaf;color:white}
+
+
+/*Forms styles*/
+.text-D-2 {min-width: 90px;display:inline-block;}
+td input.TextBox-Field-2[id$="txtCaptcha"] {width: 365px !important;}
+/*end of forms styles*/
+
+/*services listing styles*/
+.saudis-outside,.saudis-citizens,.travel-to-saudi,.sectors,.eservices-section{width:50%}
+.services-listing{float:right;margin-bottom:10px}
+.services-listing li{list-style:none outside none;margin-bottom:8px;float:right;width:100%;display:flex}
+.services-listing .icon-angle-right{margin-left:8px;float:right;clear:both;margin-top:4px}
+.services-listing .services-list{background:#ebebeb;border-top:1px solid #bb9f60;padding:0 16px 32px 0;color:#333;width:319px;margin-left:10px;min-height:160px}
+.FL{float:left}
+.FR{float:right}
+.clear{clear:both}
+.services-listing h5{margin:32px 0 0;padding:0;color:#a9873c;font-family:'droid_arabic_kufibold';font-size:138%;line-height:20px}
+.services-list ul{float:right;margin:10px 0 0;padding:0}
+.services-listing img{float:right}
+.services-list a{color:#333;float:right;width:93%;font-family:droid_arabic_kufiregular;font-size:92.3%;font-weight:normal}
+.services-list a span:hover{text-decoration:underline}
+
+/*end of services listing styles*/
+
+/*services details styles*/
+.TxtBoxField102 div div{margin:0 !important}
+.TittelField101,.TxtBoxField102,.Table-control{width:100%;font:16px/24px droid_arabic_kufiregular;padding:0 !important;margin:0 !important}
+.ContanerForm-Msg .Table-control span,.ContanerForm-Msg .Table-control div{clear:both;float:right;font-size:100%;margin-bottom:20px;width:100%;font-family:Tahoma; font-weight:bold;}
+.TxtBoxField102 span , .TxtBoxField102 div{font-weight:normal !important;}
+.TxtBoxField102 ul{float:right;margin:0;padding:0}
+.service-details-table tr:first-child {display:none;}
+.svc-last div{margin-bottom:0px !important;}
+.service-details h6,.TittelField101>span{font-family:droid_arabic_kufiregular;color:#a9873c;font-size:100%;border-bottom:1px solid #333;padding:0 0 5px;margin:0 0 5px 0 !important;width:100%;display:inline-block}
+.service-policy li,.Table-control ul li{list-style:none;margin-bottom:8px;float:right;width:100%}
+.service-policy{border-bottom:1px solid #333}
+.service-policy .icon-angle-right,.Table-control ul li i.icon-angle-right{margin-left:8px;float:right;margin-top:5px}
+.service-name,.service-users,.service-description,.service-policy{clear:both;float:right;margin-bottom:40px;width:100%}
+.service-policy span{float:right;width:98%}
+.service-details-list{margin:0 !important;width:98% !important;clear:none !important}
+/*.serviceLinks input.gridbtn{background:#bb9f60;border:medium none;color:#fff;float:left;font:12px/24px droid_arabic_kufiregular;margin:0 10px 10px 0;min-width:117px;padding:0 10px;transition:all .3s ease-in-out 0}*/
+.serviceLinks .gridbtn:hover{background:#7d6836 !important}
+tr[id$="svcImageRow"]{display:none}
+/*end of services details styles*/
+
+/*services listing styles*/
+.Visa_Container_Doc_1R a {float: right;margin-bottom: 12px;margin-left: 12px;min-height: 50px;padding-top:15px;width: 298px;background:#d6d6d6;text-align:right;font-family:droid_arabic_kufibold;color:#333333;}
+.Visa_Container_Doc_1R i {float: right;font-size: 190%;margin-left: 30px;margin-right: 20px;}
+/*end of services listing styles*/
+
+/*services forms (contact us) styles*/
+.DivContentAll .TittelField101,.TxtBoxField102,.Table-control{font-size:100%;}
+.DivContentAll .Table-control span, .DivContentAll .Table-control div{float:none;margin:0;}
+input.Butt-format-vote, .Butt-format-vote{background: #BB9F60;border: medium none;color: #FFFFFF;float: left;font: 100%/24px droid_arabic_kufiregular !important;margin: 0 10px 10px 0;min-width: 117px;padding: 0 10px;transition: all 0.3s ease-in-out 0s;}
+input.Butt-format-vote:hover, .Butt-format-vote:hover{background:#7D6836;}
+/*end of services forms (contact us) styles*/
+
+/* ========================================= END of UID 2================================================ */
+
+
+/* contacts list */
+.contacts-list ul {padding:0px !important;margin:0px !important;font-family: "droid_arabic_kufiregular";}
+.contacts-list li {background:none !important;padding:5px 0;margin:5px 0;}
+.contacts-list li i {padding:0 10px;margin-right:-20px;vertical-align: middle;float:right;margin-top:6px;}
+ .contacts-list  .info-header {float:right;padding-left:10px;width:200px;color:#A9873C;}
+  .contacts-list  .info-details {float:right;width:250px;}
+  
+  
+
+/*  replace this in main.css  */
+.Table-control input[type="submit"] { background: #BB9F60!important; font: 92.3%/24px droid_arabic_kufiregular!important;}
+.Table-control .TittelField { width: 160px!important;  background: none!important; }
+.FullLineUl li{ padding: 0 10px 0 5px; display: block;background: url("../images/bullets.png") no-repeat right 10px; list-style:none; font-size:110.7%;
+line-height: 24px;font-family: droid_arabic_kufiregular;color:#b2944d}
+
+.FeedBack {padding: 10px;background: #eee;margin: 0 0 10px;border-bottom: 1px solid #ccc;}
+.FeedBack_Tittel {font-family: droid_arabic_kufibold;}
+.Table-control .TittelField { font-size: 12px;font-family: tahoma;}
+.Table-control td span.Tittel-Content { background: #ebebeb; color: #333; display: block; font-family: tahoma; padding: 2px 10px;}
+.capatcha_container {font-family:tahoma}
+#pager {margin:20px auto}
+#pager .first {background: url(/sites/mofaen/MOFADesign/MOFA-Images/firstPage.gif) no-repeat; width: 15px;min-width: 15px;margin: 5px;border:0}
+#pager .last {background: url(/sites/mofaen/MOFADesign/MOFA-Images/lastPage.gif) no-repeat; width: 15px !important;min-width: 15px !important;margin: 5px;border:0}
+#pager .prev {background: url(/MOFADesign/MOFA-Images/Ar/PG_NextArow.gif) no-repeat; width: 15px !important;min-width: 15px !important;margin:3px 10px 0px;border:0}
+#pager .next {background: url(/MOFADesign/MOFA-Images/Ar/PG_PreviousArow.gif) no-repeat; width: 15px !important;min-width: 15px !important;margin:3px 10px 0px;border:0}
+#pager input {padding-right:0 !important;padding-left:0 !important;}
+#pager .PageLinksTD a{padding: 5px 10px; background: #d6d6d6!important; font: 107.7% tahoma; display: inline-block; margin: 5px!important; color: #000!important; border: none;}
+#pager .PageLinksTD a:focus{background:#000!important; color:#fff!important}
+#descriptionWrapper p{text-align:center!important;font:115.3%/24px droid_arabic_kufiregular!important;}
+.checkpassport-btns input{width:auto}
+#wizard ul{}
+
+#swMain > ul{margin:0px!important;padding:0px!important;}
+#wizard ul li{list-style:none!important;float:right;width:140px;text-align: center;background:transparent url('/MOFAServicesDesign/MOFAServices-Images/wiz_stepsweb.png') repeat-x right -365px;margin:0 0 20px!important}
+#wizard ul li a{display:inline-block;cursor:pointer}
+#wizard ul li a .stepNumber{display:inline-block;width:35px;height:32px;padding-top:8px;font:bold 16px arial;text-align:center;background:transparent url('/MOFAServicesDesign/MOFAServices-Images/wiz_stepsweb.png') no-repeat;color:#fff}
+#wizard ul li a.disabled .stepNumber{background-position:right -244px;color:#909090}
+#wizard ul li a.selected .stepNumber{background-position:right -122px;color:#fff;cursor:pointer}
+#wizard ul li a.done .stepNumber{background-position:right 0px;color:#fff;cursor:pointer}
+#wizard ul li a .stepDesc small{font:bold 16px arial;padding-top:0px;display:inline-block}
+#wizard ul li a.disabled .stepDesc small{color:#aaa}
+#wizard ul li a.selected .stepDesc small{color:#369b7e}
+#wizard ul li a.done .stepDesc small{color:#666}
+#wizard ul li a.disabled{cursor:text}
+.ContanerForm-Msg{padding:0!important}
+.page-wp.page-MOFA_Minister > img{display:none}
+img.SaudiAskForHelpImage {display:none} 
+.Organisations-List table.MsoNormalTable {width:100%!important;margin:0!important}
+.Organisations-List table.MsoNormalTable  tr td ul{ margin:0}
+.Organisations-List table.MsoNormalTable  tr td a{list-style:none; font:107%/24px droid_arabic_kufiregular; color:#b2944d!important;text-decoration:none!important}
+.Organisations-List table.MsoNormalTable  tr td a span{color:#b2944d!important}
+/* site map */
+		.sitemap-container h5{margin:0 10px 20px 0}		
+body .Levels-List {list-style:none;margin:0 30px 30px 0; padding:20px 0;border-right:1px solid #ebebeb}
+body .sitemap   {list-style-position:inside; list-style:none;  /*float:right; width:319px;*/ }
+body .Levels-List ul {padding:0;margin:0;}
+body .Levels-List li { margin:0;list-style:none;border-bottom:1px solid #fff;clear:both;padding:0}
+body .Levels-List li a,.Levels-List h3 {padding:10px;color:#666;display:inline-block;font:123.1%/20px droid_arabic_kufiregular;white-space: nowrap;}
+body .Levels-List > li,.Levels-List h3  {background:#ebebeb;} 
+body .Levels-List ul li{background:#fff;padding:5px 10px;}
+body .Levels-List li li{background:url(../images/bullets2.png) no-repeat 99% 18px #fff;padding:3px 7px 3px 0;list-style:none;clear:both}		
+body .Levels-List li li a {padding:5px 10px 5px 0; color:#a9873c; font:100.1%/20px droid_arabic_kufiregular; white-space: normal;line-height:25px; /*width:253px*/}	
+body .Levels-List li ul{ padding: 10px 12px 10px 1px;background: #fff;}		
+body .Levels-List ul ul {padding:5px 12px 5px 1px}
+body .Levels-List .level-icon{width:20px; height:20px; float:left; margin:8px;cursor: pointer; font-size:22px;text-align: center; color:#666; /*display:none !important*/}
+body .Levels-List .level-sep {display:none;float:none;clear:both;height:1px;background:#656565;}
+body .Levels-List li ul .level-sep {display:block;}
+body .Levels-List li:hover > .level-icon{display:block!important }
+body .Levels-List .icon-icon-stop{font-size: 22px; text-align: center; color: #656565; width: 10px; display: inline-block; background: #656565; height: 10px; margin:0 -5px 0 0}
+body .Levels-List li li li a{font:13px/20px tahoma;color:#333}
+body .Levels-List li li li{background:url(../images/bullets.png) no-repeat 99% 13px #fff;} 
+
+
+/* ------------------------------------------------------------
+	NUMBER OF COLUMNS: Adjust #primaryNav li to set the number
+	of columns required in your site map. The default is 
+	4 columns (25%). 5 columns would be 20%, 6 columns would 
+	be 16.6%, etc. 
+------------------------------------------------------------ */
+#primaryNav li{width:25%}
+#primaryNav li ul li{width:100% !important}
+#primaryNav ol,#primaryNav ul,#primaryNav li{list-style:none}
+#primaryNav.col1 li{width:99.9%}
+#primaryNav.col2 li{width:50.0%}
+#primaryNav.col3 li{width:33.3%}
+#primaryNav.col4 li{width:25.0%}
+#primaryNav.col5 li{width:20.0%}
+#primaryNav.col6 li{width:16.6%}
+#primaryNav.col7 li{width:14.2%}
+#primaryNav.col8 li{width:12.5%}
+#primaryNav.col9 li{width:11.1%}
+#primaryNav.col10 li{width:10.0%}
+#primaryNav{margin:0;float:right;width:100%}
+#primaryNav #home{display:block;float:none;background:#fff url('../images/chart/L1-left.png') center bottom no-repeat;position:relative;z-index:2;padding:0 0 30px 0}
+#primaryNav li{float:right;background:url('../images/chart/L1-center.png') center top no-repeat;padding:30px 0;margin-top:-30px}
+#primaryNav li a{margin:0 0 0 20px;padding:10px 0;display:block;font-size:14px;font-weight:bold;text-align:center;color:black;background:#c3eafb url('../images/chart/white-highlight.png') top right repeat-x;border:2px solid #b5d9ea;-moz-border-radius:5px;-webkit-border-radius:5px;-webkit-box-shadow:rgba(0,0,0,0.5) 2px 2px 2px;-moz-box-shadow:rgba(0,0,0,0.5) 2px 2px 2px}
+#primaryNav li a:hover{background-color:#e2f4fd;border-color:#97bdcf}
+#primaryNav li:last-child{background:url('../images/chart/L1-right.png') center top no-repeat}
+#primaryNav li a:link:before,#primaryNav li a:visited:before{color:#78a9c0}
+#primaryNav li li{width:100%;clear:right;margin-top:0;padding:10px 0 0 0;background:url('../images/chart/vertical-line.png') center bottom repeat-y}
+#primaryNav li li a{background-color:#cee3ac;border-color:#b8da83}
+#primaryNav li li a:hover{border-color:#94b75f;background-color:#e7f1d7}
+#primaryNav li li:first-child{padding-top:30px}
+#primaryNav li li:last-child{background:url('../images/chart/vertical-line.png') center bottom repeat-y}
+#primaryNav li li a:link:before,#primaryNav li li a:visited:before{color:#8faf5c}
+#primaryNav li li ul{margin:10px 0 0 0;width:100%;float:left;padding:9px 0 10px 0;background:#fff url('../images/chart/L3-ul-top.png') center top no-repeat}
+#primaryNav li li li{background:url('../images/chart/L3-center.png') right center no-repeat;padding:5px 0}
+#primaryNav li li li a{background-color:#fff7aa;border-color:#e3ca4b;font-size:12px;padding:5px 0;width:80%;float:left}
+#primaryNav li li li a:hover{background-color:#fffce5;border-color:#d1b62c}
+#primaryNav li li li:first-child{padding:15px 0 5px 0;background:url('../images/chart/L3-li-top.png') right center no-repeat}
+#primaryNav li li li:last-child{background:url('../images/chart/L3-bottom.png') right center no-repeat}
+#primaryNav li li li a:link:before,#primaryNav li li li a:visited:before{color:#ccae14;font-size:9px}
+
+
+/* org chart */
+.age-chart #primaryNav {display:none;}
+.age-chart div.orgChart h2 {vertical-align:middle;font-family:'droid_arabic_kufiregular', Arial, Helvetica, sans-serif;font-size:14px !important;color:#2d2d2d;}
+.age-chart div.orgChart a:hover {}
+.age-chart div.orgChart { border: 1px solid #bb9f60;	background-color: #ebebeb;	margin: 10px 0;	padding: 10px;}
+
+.age-chart div.orgChart h2 {	margin: 0px;	border-bottom: 1px solid #bb9f60;	border-bottom : none;}
+.age-chart div.orgChart ul {	list-style: none;	margin: 4px;	padding: 0px;	text-align: right;}
+.age-chart div.orgChart ul.stack,.age-chart div.orgChart ul.stack ul {	text-align: center;}
+.age-chart div.orgChart table {	width : 100%;}
+.age-chart div.orgChart tr.lines td.line {	width : 1px;	height: 20px;}
+.age-chart div.orgChart tr.lines td.top {	border-top: 3px solid #bb9f60;}
+.age-chart div.orgChart tr.lines td.left {	border-left: 2px solid #bb9f60;}
+.age-chart div.orgChart tr.lines td.right {	border-right: 2px solid #bb9f60;}
+.age-chart div.orgChart td {	text-align: center;	vertical-align: top;	padding: 0px 2px;}
+.age-chart div.orgChart div.node {	cursor: default;	border: 1px solid #bb9f60;	display: inline-block;	padding: 0 4px;	width : 96px;	height: 60px;	background-color: #ffffcf;	line-height: 1.3em;}
+.age-chart div.orgChart div.hasChildren {	background-color: #ffff98;}
+.age-chart div.orgChart.interactive div.hasChildren {	cursor: pointer;}
+.age-chart div.orgChart div.node.hover {	background-color: white;}
+.age-chart div.orgChart div.node.level0 {	background-color: #bb9f60;	color:#fff;}
+.age-chart div.orgChart div.node.level0 h2{	font-size:20px !important;	line-height:26px !important;	font-family:'droid_arabic_kufibold';	margin-top:2px;}
+.age-chart div.orgChart div.node.level1 {	background-color: #ddcfaf;	color:#333;}
+.age-chart div.orgChart div.node.level1 h2{	font-size:16px !important;	margin-top:4px;}
+.age-chart div.orgChart div.node.level2 { background-color: #fff; color:#2d2d2d; width:80px; }
+.age-chart div.orgChart div.node.level2 h2 { font-size:12px !important; margin-top:4px;	 }  
+
+/* officials page */
+.list-officials {list-style:none;padding:0;margin:0;}
+.list-officials li {padding:0 !important;margin: 0px 0 20px !important;background:none !important;}
+
+/* photo gallery fix */
+.PagerWrapper #middle {max-width:337px;}
+

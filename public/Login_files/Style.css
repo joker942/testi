@@ -1,0 +1,3862 @@
+﻿/*import styles*/
+
+
+
+
+
+/**/
+/* You may adapt and learn from the elements of this CSS to use in your own
+projects, but you may not copy the design (the unique combination of images,
+colors, sizes, typography, and positioning) since this is copyright of Interactive Saudi Arabia LTD (KSA).  and may not be reproduced. 
+
+by : Interactive Saudi Arabia LTD.
+url:www.interactive.sa
+
+/*Reset Css*/
+/*html{margin:0;padding:0}form{margin:0;padding:0}fieldset{margin:0;padding:0}h1{margin:0;padding:0}h2{margin:0;padding:0}h3{margin:0;padding:0}h4{margin:0;padding:0}h5{margin:0;padding:0}h6{margin:0;padding:0}p{margin:0;padding:0}pre{margin:0;padding:0}blockquote{margin:0;padding:0}ol{margin:0;padding:0}dl{margin:0;padding:0}address{margin:0;padding:0}hr{clear:both;visibility:hidden}a { outline:0; border:0 }ul{list-style-type:none;margin:0;padding:0}img{border:0}
+*/
+/*Basic css*/
+
+body {
+    font-size: 12px;
+    font-family: 'droid_arabic_kufiregular', Arial, Helvetica, sans-serif;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.Aright {
+    text-align: right !important;
+}
+
+.Aleft {
+    text-align: left !important;
+}
+
+.Acenter {
+    text-align: center !important;
+}
+
+.clear {
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+button.btn {
+    white-space: nowrap;
+}
+/*::selection{background-color:#127E5E;color:#fff}*/
+a {
+    text-decoration: none;
+}
+
+span {
+}
+
+input[readonly="readonly"] {
+    border: 1px #999 solid;
+    font: 11px tahoma;
+}
+
+a span {
+    cursor: pointer;
+}
+
+input, select, textarea {
+    font: normal 14px tahoma !important;
+}
+
+
+/*Body Background*/
+/*body{background:#093c2d url('../Images/body-bg2.png') repeat-x left top;margin: 0;direction:rtl;}*/
+/*body{background:transparent url('../Images/Body-bg3.jpg') repeat left top;margin: 0;direction:rtl;}
+
+.bodymain p{font:bold 15px tahoma;line-height:22px;color:#696969;}
+/*.bodymain{background:transparent url('../Images/Body-bg1.jpg') no-repeat center top;margin:0 auto;padding:15px 0;}*/
+/*.bodymain{background:transparent url('../Images/Body-bg2.jpg') no-repeat center top;margin:0 auto;padding:15px 0;}*/
+.container {
+}
+/*Header
+.header{height:140px;}
+.Beta{ background:transparent url('../Images/Lunch-IconV.png') no-repeat left top; position:absolute; left:0; top:0; width:153px; height:137px;}
+.logo{}
+.formhead{width:438px;height:161px;position:relative}
+.langswitch{display:inline-block;width:80px;height:33px;background:transparent url('../Images/langBg.png') no-repeat;font:bold 12px verdana;color:#fff;text-align:center;line-height:30px;text-decoration:none;position:absolute;top:100px;left:5px}
+.Opinions{display:inline-block;width:80px;height:33px;background:transparent url('../Images/opinion-btn.png') no-repeat;font:bold 15px tahoma;color:#fff;text-align:center;line-height:30px;text-decoration:none;position:absolute;top:100px;left:175px}
+.Homepage{display:inline-block;width:80px;height:33px;background:transparent url('../Images/langBg.png') no-repeat;font:bold 15px tahoma;color:#ece96a;text-align:center;line-height:30px;text-decoration:none;position:absolute;top:100px;left:90px}
+.Homepage2{left:5px}
+*/
+.header {
+    position: relative;
+    z-index: 1000;
+}
+/*Content*/
+.content {
+    width: 100%;
+    margin-bottom: 40px;
+    float: right;
+}
+
+.contenttop {
+    background: transparent url('../Images/visaWiz-boxtop.png') no-repeat left top;
+    height: 15px;
+    display: none;
+}
+
+.contentbottom {
+    background: transparent url('../Images/visaWiz-boxbottom.png') no-repeat left top;
+    height: 15px;
+    display: none;
+}
+
+.contentmid { /*background:transparent url('../Images/visaWiz-boxmid.png') repeat-y left top;padding:20px 0*/
+}
+
+.innerbox {
+    width: 100%;
+}
+
+.innerbox-top {
+    background: transparent url('../Images/visaWiz-Innerboxtop.png') no-repeat left top;
+    height: 9px;
+}
+
+.innerbox-bottom {
+    background: transparent url('../Images/visaWiz-Innerboxbottom.png') no-repeat left top;
+    height: 9px;
+}
+
+.innerbox-mid { /*background:transparent url('../Images/visaWiz-Innerboxmid.png') repeat-y left top;padding:20px 35px*/
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Wizard-Step {
+    text-align: right;
+    margin: 20px 0;
+}
+
+    .Wizard-Step img {
+        margin-top: 10px;
+        height: 85px;
+    }
+
+.error-msg {
+    width: 462px;
+    min-height: 25px;
+    margin: 10px auto 20px;
+    background: #900000 url('../Images/errormark.png') no-repeat 485px 8px;
+    padding: 11px 61px 11px 11px;
+    font: bold 16px tahoma;
+    color: #fff;
+}
+
+    .error-msg p {
+        font: bold 22px tahoma;
+        color: #fff;
+    }
+
+.formtable {
+    width: 940px;
+}
+
+    .formtable td {
+        font: normal 13px tahoma;
+        color: #666;
+        padding: 2px 0 2px 5px;
+        vertical-align: top;
+        width: 60px;
+    }
+
+        .formtable td > span {
+            font: normal 12px droid_arabic_kufiregular;
+            color: #666;
+            text-align: right;
+            display: block;
+            padding-left: 0px;
+            margin-top: 5px;
+        }
+
+        .formtable td label span {
+            font: bold 17px tahoma;
+            color: #a40000;
+            display: inline-block;
+        }
+
+        .formtable td span span {
+            font: normal 12px tahoma;
+            color: #a40000;
+            display: inline-block;
+        }
+
+        .formtable td select {
+            background-color: #f5f5f5;
+            border: 1px #d6d6d6 solid;
+            min-height: 25px;
+            line-height: 24px;
+            font: bold 16px tahoma;
+            color: #4a4a4a;
+            padding: 0 5px;
+            width: 183px;
+            padding-left: 0px;
+            height: 25px;
+            margin-right: 5px;
+        }
+
+select#searchtype {
+    padding-right: 0;
+}
+
+.ie7 select#searchtype {
+    height: 21px !important;
+    min-height: 0 !important;
+}
+
+.formtable td input[type="text"] {
+    background-color: #f5f5f5;
+    border: 1px #d6d6d6 solid;
+    min-height: 25px;
+    line-height: 24px;
+    font: 13px tahoma;
+    color: #4a4a4a;
+    padding: 0 5px;
+    width: 205px !important;
+}
+
+.formtable td input[type="password"] {
+    background-color: #f5f5f5;
+    border: 1px #d6d6d6 solid;
+    min-height: 25px;
+    line-height: 24px;
+    font: bold 16px tahoma;
+    color: #4a4a4a;
+    padding: 0 5px;
+    width: 205px;
+}
+
+.formtable td input[type="checkbox"] {
+    background-color: #f5f5f5;
+    border: 1px #d6d6d6 solid;
+    min-height: 25px;
+    line-height: 24px;
+    font: bold 16px tahoma;
+    color: #4a4a4a;
+    padding: 0 5px;
+}
+
+.formtable td input[type="text"].narrow {
+    width: 98px;
+}
+
+.formtable td textarea {
+    background-color: #f5f5f5;
+    border: 1px #d6d6d6 solid;
+    min-height: 25px;
+    line-height: 24px;
+    font: bold 16px tahoma;
+    color: #4a4a4a;
+    padding: 5px;
+    width: 623px !important;
+    max-height: 80px;
+    height: 80px;
+    margin-left: -50px;
+    margin-right: 5px;
+}
+
+.divformtable {
+    margin-bottom: 45px;
+}
+
+.formtable td .widetext {
+    width: 275px !important;
+}
+
+.formtable td select.widetext {
+    width: 289px !important;
+}
+
+.PhotoInfo {
+    background-color: #EBEBEB;
+    border: 1px #D6D6D6 solid;
+    padding: 18px 15px 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.formtable td b {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+}
+
+.field-info {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: transparent url('../Images/formfield-imark.png') no-repeat;
+    margin-right: 10px;
+}
+
+.required span {
+    color: #a40000 !important;
+}
+
+.required input {
+    color: #a40000 !important;
+    background-color: #fff1f1 !important;
+    border: 1px #d7a9a9 solid !important;
+}
+
+.residenceInfo {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #aeaeae;
+}
+
+    .residenceInfo h4 {
+        font: normal 15px droid_arabic_kufibold;
+        color: #BB9F60;
+        margin-bottom: 21px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #565656;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .residenceInfo .formtable {
+        margin-right: 0px; /*width:480px*/
+    }
+
+        .residenceInfo .formtable td {
+            padding: 0 !important;
+        }
+
+            .residenceInfo .formtable td label {
+                margin-top: 10px;
+            }
+
+            .residenceInfo .formtable td .widetext {
+                width: 303px !important;
+                border: 1px #e6dbbc solid;
+                background: #fff;
+            }
+
+            .residenceInfo .formtable td input[type="text"] {
+                margin: 0 0px 5px 0px;
+            }
+
+            .residenceInfo .formtable td select {
+                width: auto !important;
+            }
+
+.residenceInfo-hint {
+    margin-top: 10px;
+    font: normal 13px Tahoma;
+    color: #666;
+    margin-right: 0px;
+    margin-bottom: 2px;
+}
+
+.residenceInfo-PhoneHint {
+    margin-top: 5px;
+    font: normal 12px tahoma;
+    color: #666;
+    margin-bottom: 5px;
+    width: 250px;
+    display: table-cell;
+}
+
+.residenceInfo-hint span {
+    display: inline-block;
+    height: 17px;
+    background: transparent url('../Images/imark.png') no-repeat right top;
+    padding-right: 22px;
+    margin-left: 8px;
+    margin-bottom: -2px;
+}
+
+.btndiv {
+    float: right;
+    width: 100%;
+}
+
+.btndiv-border-wrapper {
+    border-top: 1px solid #545454;
+    padding-top: 15px;
+}
+
+.btndivPrint {
+    padding-bottom: 50px;
+    width: 80px;
+    float: left;
+}
+
+.nextbtn[disabled="disabled"] {
+    color: #777;
+    background: transparent url('../Images/nextbtn-inactive.png') no-repeat;
+    cursor: text;
+}
+/*.footer{padding:10px 12px}
+.footer .copyright{font:12px tahoma;color:#585858;#float:right}
+.footer .contact-us{background:transparent url('../Images/contactus.png') no-repeat left top;display:inline-block;width:68px;height:25px;font:12px tahoma;color:#585858;text-decoration:none;text-align:center;line-height:25px}
+*/
+/*Boxs*/
+.rightbox {
+    width: 620px;
+}
+
+    .rightbox.rooms {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+.leftbox {
+    width: 298px;
+    height: 329px;
+    margin-right: 15px;
+}
+/*.rightbox-top{background:transparent url('../Images/rightbox-top.png') no-repeat left top;height:9px}
+.rightbox-bottom{background:transparent url('../Images/rightbox-btom.png') no-repeat left top;height:9px}*/
+.rightbox-mid {
+    padding: 0px;
+}
+
+/*.leftbox-top{background:transparent url('../Images/leftbox-top.png') no-repeat left top;height:9px}
+.leftbox-bottom{background:transparent url('../Images/leftbox-btom.png') no-repeat left top;height:9px}*/
+.leftbox-mid {
+    padding: 0px 10px;
+    max-height: 329px;
+    position: relative;
+    border: 1px solid #A1A1A1;
+    clear: both;
+}
+
+.inner-visa-left-box {
+    margin-top: 10px;
+}
+
+.leftrightcolumn { /*margin-right:25px;margin-left:25px*/
+}
+
+.leftrightcolumn-top {
+    background: transparent url('../Images/leftrightbox-top.png') no-repeat left top;
+    height: 9px;
+    display: none;
+}
+
+.leftrightcolumn-botom {
+    background: transparent url('../Images/leftrightbox-botom.png') no-repeat left top;
+    height: 9px;
+    display: none;
+}
+
+.leftrightcolumn-mid { /*background:transparent url('../Images/leftrightbox-mid.png') repeat-y left top;position:relative;#position:static*/
+}
+
+
+/*Home 1*/
+.homebtns a {
+    display: block;
+    width: 308px;
+    padding: 0px;
+    height: 330px;
+    text-decoration: none;
+}
+
+    .homebtns a span {
+        display: inline-block;
+        font: normal 15px droid_arabic_kufiregular;
+        color: #333;
+        padding: 28px;
+        cursor: pointer;
+        line-height: 25px;
+        position: relative;
+        top: 5px;
+        background: #d6d6d6;
+        height: 166px;
+    }
+
+.persons { /*background:transparent url('../Images/visa_home_citizens_tab.png') no-repeat top center;*/
+    margin-left: 0px;
+    float: right;
+}
+
+    .persons:hover { /*background:transparent url('../Images/visa_home_citizens_tab_hover.png') no-repeat top center*/
+    }
+
+    .persons:active {
+    }
+
+.orgs { /*background:transparent url('../Images/visa_home_sectors_tab.png') no-repeat left top;*/
+    float: left;
+}
+
+    .orgs:hover { /*background:transparent url('../Images/visa_home_sectors_tab_hover.png') no-repeat top center*/
+    }
+
+    .orgs:active {
+    }
+
+.homebtns {
+    float: right;
+    width: 100%;
+}
+
+.visasearchTitle {
+    border-bottom: 2px #bb9f60 solid; /*background:transparent url('../Images/visaSearch.png') no-repeat right top*/
+    ;
+    padding-right: 0px;
+    padding-bottom: 0;
+    margin: 12px 0 0;
+}
+
+.leftbox .formtable {
+    width: 100%;
+}
+
+    .leftbox .formtable td {
+        padding: 2px 0;
+    }
+
+        .leftbox .formtable td span {
+            text-align: right;
+            float: right;
+            width: 60px;
+        }
+
+    .leftbox .formtable select {
+        color: #999;
+        width: 202px;
+        float: right;
+        margin-bottom: 10px;
+        margin-right: 7px;
+        font-size: 13px !important;
+    }
+
+.ie8 .leftbox .formtable select {
+    height: 25px !important;
+    min-height: 0 !important;
+    padding: 2px 0 2px !important;
+    display: block;
+}
+
+    .ie8 .leftbox .formtable select option {
+        background: none;
+        padding-bottom: 4px;
+    }
+
+.leftbox .formtable input[type="text"] {
+    width: 190px !important;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.leftbox .field-validation-error {
+    width: auto !important;
+    margin-right: 3px;
+}
+
+.rightbox .formtable {
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+
+/***/
+.tabs { /*margin: -23px -17px 0 -20px;*/
+}
+
+    .tabs span a {
+        display: inline-block;
+        width: 303px;
+        height: 116px;
+        float: right;
+    }
+
+.persons-tab a {
+    background: transparent url('../Images/citizens_residents_tab_bg.png') no-repeat left top;
+    background-color: #bb9f60;
+}
+
+.persons-tab.active a {
+    background: transparent url('../Images/citizens_residents_tab_bg.png') no-repeat left top;
+    background-color: #666666;
+}
+
+.orgs-tab a {
+    background: transparent url('../Images/sectors_tab_bg.png') no-repeat 0 0;
+    background-color: #BB9F60;
+}
+
+    .orgs-tab a:hover, .persons-tab a:hover {
+        background-color: #666666;
+    }
+
+.orgs-tab.active a {
+    background: transparent url('../Images/sectors_tab_bg.png') no-repeat;
+    background-color: #666666;
+}
+
+.tab_content-item {
+    padding-top: 10px;
+}
+
+.personsLinks a {
+    display: inline-block;
+    height: 204px;
+    width: 198px;
+    position: relative;
+    text-decoration: none;
+    float: right;
+    background-color: #D6D6D6;
+    margin-right: 10px;
+}
+
+    .personsLinks a:hover {
+        background-color: #666;
+        color: white;
+    }
+
+    .personsLinks a:active {
+    }
+
+    .personsLinks a span {
+        font: 12px droid_arabic_kufiregular;
+        color: #333;
+        display: inline-block;
+        padding: 80px 0 0;
+        bottom: 0px;
+        text-decoration: none;
+        height: 120px;
+        overflow: hidden;
+        text-align: center;
+        margin: 0px;
+        background-color: transparent;
+    }
+
+    .personsLinks a:hover span {
+        color: white;
+    }
+
+.saudi {
+    background: transparent url('../Images/citizen_tab_active.png') no-repeat left top;
+    margin-right: 0 !important;
+}
+
+    .saudi:hover {
+        background: transparent url('../Images/citizen_tab_not_active.png') no-repeat left top;
+        color: #fff;
+    }
+
+.resident {
+    background: transparent url('../Images/not_citizen_tab_active.png') no-repeat left top;
+}
+
+    .resident:hover {
+        background: transparent url('../Images/not_citizen_tab_not_active.png') no-repeat left top;
+        color: #fff;
+    }
+
+.non-resident {
+    background: transparent url('../Images/other_tab_active.png') no-repeat left top;
+    margin-left: -3px;
+}
+
+    .non-resident:hover {
+        background: transparent url('../Images/other_tab_not_active.png') no-repeat left top;
+        color: #fff;
+    }
+/***/
+.orgvisalink {
+    width: 230px;
+    min-height: 100px;
+    max-height: 210px;
+    padding: 5px 0 20px 10px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+    .orgvisalink a {
+        font: bold 22px tahoma;
+        color: #b2ae18;
+        display: inline-block;
+        padding-bottom: 2px;
+    }
+
+        .orgvisalink a:hover {
+            text-decoration: underline;
+        }
+
+/*Person Tabs*/
+#persontabslist {
+    height: 57px;
+}
+
+    #persontabslist a {
+        background-color: #666666;
+        width: 201px;
+        height: 51px;
+        margin-left: 5px;
+        float: right;
+    }
+
+        #persontabslist a.active {
+            border-bottom: 6px solid #d6d6d6;
+            background-color: #d6d6d6;
+        }
+
+        #persontabslist a:hover {
+            background-color: #d6d6d6;
+        }
+
+.personTabs a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+.saudiTab {
+    background: transparent url('../Images/citizen_tab_not_active.png') no-repeat left top;
+    margin-right: -1px !important;
+}
+
+    .saudiTab.active, .saudiTab:hover {
+        background: url('../Images/citizen_tab_active.png') no-repeat left top;
+        background-color: #d6d6d6 !important;
+        margin-right: 0px;
+    }
+
+.residentTab {
+    background: transparent url('../Images/not_citizen_tab_not_active.png') no-repeat left top;
+}
+
+    .residentTab.active, .residentTab:hover {
+        background: url('../Images/not_citizen_tab_active.png') no-repeat left top;
+        height: 121px;
+    }
+
+.non-residentTab {
+    background: transparent url('../Images/other_tab_not_active.png') no-repeat left top;
+    margin-left: -3px;
+}
+
+    .non-residentTab.active, .non-residentTab:hover {
+        background: url('../Images/other_tab_active.png') no-repeat left top;
+        margin-left: -3px;
+    }
+
+#persontabs_content {
+    margin-left: -2px;
+}
+
+.personcontentBG {
+    background-color: #d6d6d6;
+    border-left: 1px #dcdcdc solid;
+    border-right: 1px #dcdcdc solid;
+    padding: 35px 15px 15px;
+    width: 581px;
+    margin-right: -1px;
+}
+
+.personvisalink {
+    width: 234px;
+    min-height: 100px;
+    max-height: 175px;
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+    .personvisalink.fright {
+        margin-right: 30px;
+    }
+
+    .personvisalink a {
+        font: normal 15px droid_arabic_kufibold;
+        color: #b2ae18;
+        display: inline;
+        padding-bottom: 2px;
+    }
+
+    .personvisalink.fright > a[href="/IqamaVisa/create"], .orgvisalink > a[href="/WorkVisa/Create"], .orgvisalink > a[href="/OrganizationPrivateVisa/create"] { /*width:182px*/
+    }
+
+    .personvisalink a:hover {
+        text-decoration: underline;
+    }
+/****/
+
+
+.Afont {
+    color: #c19830;
+    font: bold 18px tahoma;
+}
+
+.Afont2 {
+    color: #c19830;
+    font: bold 14px tahoma;
+}
+
+.visitor {
+    background-color: #f9f5ea;
+    padding: 18px 15px 25px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    border: 3px #E8D8AE solid;
+    position: relative;
+}
+
+    .visitor .formtable td {
+        padding: 2px 0;
+        vertical-align: top;
+    }
+
+        .visitor .formtable td select {
+            border: 1px #E6DBBC solid;
+            background: white;
+        }
+
+        .visitor .formtable td input[type="text"] {
+            border: 1px #E6DBBC solid;
+            background: white;
+        }
+
+.addvisitor {
+    position: absolute;
+    bottom: -26px;
+    right: -3px;
+    display: inline-block;
+    width: 114px;
+    height: 23px;
+    background: transparent url('../Images/addvisitor.gif') no-repeat left top;
+    cursor: pointer;
+}
+
+    .addvisitor:hover {
+        background-position: left bottom;
+    }
+
+    .addvisitor a {
+        font: bold 16px tahoma;
+        color: #0e6048;
+        display: inline-block;
+        margin-right: 26px;
+        margin-top: 2px;
+    }
+/*Printframe*/
+.printFrame {
+    border: 1px solid #d6d6d6;
+    padding: 0 10px 10px;
+    float: right;
+    width: 98%;
+}
+
+.downloadbtn {
+    border: 0px;
+    font: bold 18px tahoma;
+    color: #fff;
+    background: transparent url('../Images/Downloadbtn.png') no-repeat left top;
+    width: 197px;
+    height: 39px;
+    text-align: left;
+    padding-left: 55px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+    .downloadbtn:hover {
+        background-position: left bottom;
+    }
+
+    .downloadbtn:active {
+        background-position: left top;
+    }
+
+
+
+.printhead {
+    position: relative;
+    margin-bottom: 0px;
+    float: right;
+    width: 100%;
+    margin-top: 10px;
+    min-height: 215px;
+}
+
+    .printhead.Acenter {
+        min-height: 0 !important;
+    }
+
+.requestcode {
+    width: 155px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    text-align: center;
+}
+
+    .requestcode p {
+        font: bold 12px tahoma !important;
+        color: #333 !important;
+        padding: 4px 0;
+    }
+
+.printFrame h3.form-title {
+    margin-top: -12px;
+}
+
+.printFrame .formtable td *, .printFrame .formtable td { /*font:normal 13px tahoma!important;color:#313842!important*/
+}
+
+.printFrame td input[type="password"] {
+    width: 180px;
+    height: 25px;
+    padding: 0 10px;
+    line-height: 25px;
+    border: 1px #999 solid;
+    background: #fff;
+}
+
+.printFrame .formtable td input[readonly="readonly"] {
+    width: 180px;
+    height: 25px;
+    padding: 0 10px;
+    line-height: 25px !important;
+    border: 1px #999 solid;
+    background: #fff;
+}
+
+.Rednotification, .printFrame .formtable td .Rednotification {
+    color: #c00 !important;
+    font: normal 16px droid_arabic_kufibold !important;
+    text-align: center !important;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+    .Rednotification u {
+        color: #BB9F60;
+        display: inline-block;
+        font: 15px droid_arabic_kufibold;
+        padding-bottom: 10px;
+        text-decoration: none;
+    }
+
+.Rednotification {
+    color: #333333 !important;
+    font: 12px droid_arabic_kufiregular !important;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: center !important;
+    float: right;
+}
+
+    .Rednotification.hajj-notification {
+        float: none !important;
+    }
+
+    .Rednotification i {
+        color: #A72E18;
+        font-size: 35px;
+        min-height: 50px;
+        padding: 10px 0 0 10px;
+        vertical-align: bottom;
+    }
+
+.Blacknotification {
+    color: #000 !important;
+    font: normal 14px droid_arabic_kufibold !important;
+    text-align: center !important;
+    padding: 10px 20px;
+    margin-top: 10px;
+    float: none;
+    clear: both;
+}
+
+.bigfont, .printFrame .formtable td .bigfont {
+    font: bold 22px tahoma !important;
+}
+
+.signature {
+    float: right;
+}
+
+    .signature td h2 {
+        font: bold 15px tahoma;
+        line-height: 25px;
+        color: #000;
+        white-space: nowrap;
+    }
+
+table td b {
+    font: bold 16px tahoma;
+    color: #666;
+}
+/***/
+.ReqFiles {
+    padding: 0 0 20px 0;
+}
+
+    .ReqFiles p {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .ReqFiles ul li {
+        font: normal 13px tahoma;
+        background: url('../Images/bullets.png') no-repeat right center;
+        padding-right: 15px;
+        list-style: none;
+    }
+
+.large {
+    font-size: 150%;
+}
+
+/*wizards alerts messages*/
+.importantInfo, .undertake, .undertake2, .undertake3 {
+    font: 12.990px droid_arabic_kufiregular !important;
+    margin: 17px 0;
+    border: 1px #d6d6d6 solid;
+    padding: 20px;
+    color: #333;
+    background: #ebebeb;
+}
+
+    .importantInfo p {
+        font: 12px droid_arabic_kufiregular;
+        color: #333;
+    }
+
+    .undertake i, .undertake2 i, .undertake3 i, .importantInfo i {
+        color: #A72E18;
+        float: right;
+        font-size: 40px;
+        padding: 10px 0 0 10px;
+        min-height: 50px;
+    }
+
+    .undertake li {
+        background: url('../Images/bullets.png') no-repeat right center;
+        padding-right: 15px;
+        list-style: none;
+    }
+
+    .undertake div.alert-title + li {
+        background-position: right 9px;
+        font-size: 119.8%;
+    }
+
+.alert-title {
+    margin-right: 15px;
+}
+
+
+
+
+.importantInfo ol li {
+    list-style-type: decimal;
+    font: 12px droid_arabic_kufiregular !important;
+    color: #333;
+    list-style-position: inside;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.importantInfo ul li {
+    background: url('../Images/bullets.png') no-repeat right center;
+    padding-right: 15px;
+    list-style: none;
+}
+
+.importantInfo ul, .importantInfo ol, .undertake ul, .undertake ol, .undertake2 ul, .undertake2 ol, .undertake3 ul, .undertake3 ol {
+    margin-right: 45px;
+}
+
+/*
+.undertake{font:bold 22px tahoma!important;line-height:35px!important;margin:50px 20px;border:1px #d6d6d6 solid;padding:30px}
+ .undertake2{font:bold 12px tahoma!important;line-height:35px!important;margin:20px 10px;
+ border:1px #d6d6d6 solid;padding:20px; width:320px; text-align:left}
+ 
+ .undertake3{font:bold 16px tahoma!important; color:#ed0202!important; line-height:35px!important;margin:0 10px 0 10px;
+ border:1px #d6d6d6 solid;padding:20px; width:320px;min-height:278px; height:auto!important; height:280px; background:url(/Images/LOGOprint.png) no-repeat center center}
+ */
+.undertakeHeader {
+    font: bold 18px tahoma !important;
+    background: #bb9f60;
+    color: #fff !important;
+    line-height: 35px !important;
+    margin: 20px 10px 0 10px;
+    border: 1px #d6d6d6 solid;
+    padding: 20px;
+    width: 320px;
+}
+
+.undertakeHeader2 {
+    font: bold 16px tahoma !important;
+    background: #f7f7f7;
+    color: #9f8c2b !important;
+    line-height: 35px !important;
+    margin: 0 10px 30px 10px;
+    border: 1px #d6d6d6 solid;
+    padding: 0 20px 0 20px !important;
+    width: 320px;
+}
+
+
+/***/
+.logintable { /*width: auto*/
+    width: 350px;
+    margin: 0 auto;
+}
+
+    .logintable td {
+        padding: 2px 0;
+        width: auto;
+    }
+
+.addDiv table td {
+    padding: 2px 0;
+}
+
+.logintable {
+    padding: 2px 0;
+}
+
+    .logintable td input[type="password"] {
+        min-height: 25px;
+        margin-right: 0px;
+    }
+
+    .logintable td input[type="text"] {
+        min-height: 25px;
+        margin-right: 0px;
+    }
+
+.opinions-form td input, .opinions-form td select, .opinions-form td textarea {
+    margin-right: 0 !important;
+}
+
+.umrahtable td {
+    padding: 4px 0;
+}
+
+.addDiv td select {
+    min-height: 25px;
+}
+
+.resultdiv td input[type="password"] {
+    min-height: 25px;
+}
+
+.addDiv td input[type="text"] {
+    min-height: 25px;
+}
+
+.resultdiv td select {
+    min-height: 25px;
+}
+
+.addDiv td input[type="password"] {
+    min-height: 25px;
+}
+
+.resultdiv td input[type="text"] {
+    min-height: 25px;
+}
+
+.umrahtable td input[type="password"] {
+    min-height: 25px;
+}
+
+.umrahtable td input[type="text"] {
+    min-height: 25px;
+}
+
+.addlabel {
+    text-align: right !important;
+    display: inline-block;
+    border: 1px #999 solid;
+    padding: 2px 5px;
+}
+
+.umrahtable .addlabel {
+    display: inline-block;
+    border: 1px #999 solid;
+    padding: 2px 5px;
+    background: #fff;
+}
+
+.umrahtable .table-label + td {
+    width: 260px;
+}
+
+/**toplinks**/
+
+
+.printTitle {
+    border-bottom: 2px solid #BB9F60;
+    padding-right: 0px;
+    padding-bottom: 11px;
+    margin: 12px 0;
+    background: url('../Images/Req-printtitle.png') transparent no-repeat right center;
+    height: 20px;
+}
+
+    .printTitle img {
+        display: none;
+    }
+
+.landingLinks {
+    float: right;
+}
+
+    .landingLinks > table {
+        margin: 0 auto;
+    }
+
+    .landingLinks a {
+        display: inline-block;
+        height: 204px;
+        width: 204px;
+        position: relative;
+        text-decoration: none;
+        float: right;
+        background-color: #D6D6D6;
+        margin-right: 0px;
+    }
+
+        .landingLinks a:hover {
+            background-color: #666;
+            color: white;
+        }
+
+        .landingLinks a:active {
+        }
+
+        .landingLinks a span, .Notrizebtn a span {
+            font: 12px droid_arabic_kufiregular;
+            display: inline-block;
+            padding: 80px 0 0 !important;
+            text-decoration: none;
+            height: 120px;
+            overflow: hidden;
+            text-align: center;
+            margin: 0px 15px;
+            background-color: transparent;
+        }
+
+a.Notrizebtn span {
+    margin-top: 75px !important;
+    font: 20px/21px droid_arabic_kufiregular !important;
+    height: auto !important;
+}
+
+.Notrizebtn span {
+    font: 0/0 a;
+}
+
+.Notrizebtn > span {
+    width: auto !important;
+    margin: 0 20px !important;
+}
+
+.Notrizebtn:hover {
+    background: url('../Images/tasdeeq_icon_hover.png') no-repeat 16px top #666;
+}
+
+.Notrizebtn {
+    background: url('../Images/tasdeeq_icon.png') no-repeat 16px top transparent;
+    margin-top: 20px;
+}
+
+
+.hajApprovebtn {
+    background: transparent url('../Images/approval_btn.png') no-repeat 13px 0;
+    margin: 0;
+}
+
+    .hajApprovebtn:hover {
+        background: transparent url('../Images/approval_btn_hover.png') no-repeat 13px 0;
+    }
+
+    .hajApprovebtn a:hover span {
+        color: white;
+    }
+
+.Rejectbtn {
+    background: transparent url('../Images/rejected_btn.png') no-repeat 13px 0;
+    margin: 0 !important;
+}
+
+    .Rejectbtn:hover {
+        background: transparent url('../Images/rejected_btnhover.png') no-repeat 13px 0;
+    }
+
+    .Rejectbtn a:hover span {
+        color: white;
+    }
+
+.addbtn {
+    background: transparent url('../Images/add_icon.png') no-repeat left top;
+    margin: 0 !important;
+}
+
+    .addbtn:hover {
+        background: transparent url('../Images/add_icon_hover.png') no-repeat left top;
+    }
+
+    .addbtn a:hover span {
+        color: white;
+    }
+
+.PrintSentToEmbassy {
+    background: transparent url('../Images/PrintSentToEmbassy.png') no-repeat 13px 0;
+    margin: 0 !important;
+}
+
+    .PrintSentToEmbassy:hover {
+        background: transparent url('../Images/PrintSentToEmbassyhover.png') no-repeat 13px 0;
+    }
+
+.RejectSentToEmbassy a:hover span {
+    color: white;
+}
+
+.RejectSentToEmbassy {
+    background: transparent url('../Images/SentToEmbassy.png') no-repeat 13px 0;
+    margin: 0 !important;
+}
+
+    .RejectSentToEmbassy:hover {
+        background: transparent url('../Images/SentToEmbassyhover.png') no-repeat 13px 0;
+    }
+
+    .RejectSentToEmbassy a:hover span {
+        color: white;
+    }
+
+.landingLinks .searchbtn {
+    background: transparent url('../Images/searchbtn.png') no-repeat center top;
+}
+
+.landingLinks .changpassbtn {
+    background: transparent url('../Images/passbtn.png') no-repeat center top;
+}
+
+.landingLinks .Govaddbtn {
+    background: transparent url('../Images/AddbtnGov.png') no-repeat center top;
+}
+
+.landingLinks .Authorizebtn {
+    background: transparent url('../Images/authorizebtn.png') no-repeat center top;
+}
+
+.landingLinks .Delegationbtn {
+    background: transparent url('../Images/Delegationbtn.png') no-repeat center top;
+}
+
+.landingLinks .RatifyOtherOrganizationsBtn {
+    background: transparent url('../Images/RatifyOtherOrganizationsBtn.png') no-repeat center top;
+}
+
+.landingLinks .Approvebtn {
+    background: transparent url('../Images/approvalbtn.png') no-repeat center top;
+}
+
+.landingLinks .Notrizebtn {
+    background: transparent url('../Images/notrizebtn.png') no-repeat center top;
+    margin-top: 0;
+}
+
+.landingLinks .searchbtn, .landingLinks .changpassbtn, .landingLinks .Govaddbtn, .landingLinks .Authorizebtn, .landingLinks .Delegationbtn, .landingLinks .RatifyOtherOrganizationsBtn, .landingLinks .Approvebtn, .landingLinks .Notrizebtn {
+    background-color: #D6D6D6;
+}
+
+    .landingLinks .searchbtn:hover, .landingLinks .changpassbtn:hover, .landingLinks .Govaddbtn:hover, .landingLinks .Authorizebtn:hover, .landingLinks .Delegationbtn:hover, .landingLinks .RatifyOtherOrganizationsBtn:hover, .landingLinks .Approvebtn:hover, .landingLinks .Notrizebtn:hover {
+        background-position: center bottom;
+    }
+
+
+
+/***/
+.addDiv {
+    line-height: 25px !important;
+    margin: 15px 0;
+    border: 1px #d6d6d6 solid;
+    padding: 20px;
+}
+
+.resultdiv {
+    line-height: 25px !important;
+    margin: 15px 0;
+    border: 1px #d6d6d6 solid;
+    padding: 20px;
+    background: #ebebeb;
+}
+
+
+.requestphoto {
+    width: 170px;
+    text-align: center !important;
+}
+
+    .requestphoto img {
+        border: 2px #d2d2d2 solid;
+        width: 120px;
+        height: 135px;
+    }
+
+.requestphoto2 {
+    width: 125px;
+}
+
+.requestphoto p {
+    width: 100% !important;
+}
+
+.requestphoto * {
+    float: none;
+    text-align: center;
+}
+
+.requestphoto em {
+    display: none;
+}
+
+
+.widbtn {
+    border: 0px;
+    font: bold 16px tahoma;
+    color: #fff;
+    background: transparent url('../Images/widbtn.png') no-repeat;
+    width: 175px;
+    height: 25px;
+    text-align: left;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+    .widbtn:hover {
+        background-position: left bottom;
+    }
+
+    .widbtn:active {
+        background-position: left top;
+    }
+
+
+.info {
+    display: inline-block;
+    min-height: 17px;
+    padding-right: 0;
+    color: #999;
+    width: 100%;
+    float: right;
+    margin-top: 10px;
+}
+
+ul {
+    margin: 10px 0;
+}
+/*ul li{font: bold 16px tahoma;color:#999;margin:5px 0;list-style:disc;list-style-position:inside}*/
+
+.hajjform td input[type="text"] {
+    min-height: 25px;
+    width: 67px !important;
+}
+
+.hajjform td input.xwidetext {
+    width: 580px !important;
+}
+
+.formtable td > span.en {
+    font: bold 11px tahoma;
+    color: #666;
+    text-align: left;
+    display: block;
+    padding-left: 5px;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+div.breadcrumb + h3.form-title + div.error-msg + table.formtable {
+    margin-top: 10px;
+}
+
+.sp {
+    border-bottom: 1px #d2d2d2 solid;
+    margin: 5px 0;
+    display: none;
+}
+
+.hajjform .sp {
+    border-bottom: 1px #d2d2d2 solid;
+    margin: 5px 0;
+}
+
+.hajjform td input.widetext {
+    width: 189px !important;
+}
+
+.hajjform td input.midtxt {
+    width: 148px !important;
+}
+
+.hajjform td select {
+    width: 204px;
+}
+
+    .hajjform td select.leftselect {
+        width: 211px;
+    }
+
+.hajjform td input.lefttxt {
+    width: 198px !important;
+}
+
+table.hajjtable .table-label {
+    width: auto !important;
+}
+
+form[action*="Hajj/addHajjVisa"] .addDiv2 {
+    float: right;
+    width: 100%;
+}
+
+.hajjform td {
+    width: auto;
+}
+
+    .hajjform td > span {
+        font: normal 13px tahoma;
+    }
+
+.subtitle {
+    font: bold 16px tahoma !important;
+    color: #BB9F60;
+    margin-bottom: 10px;
+}
+
+.hajjform .form-title {
+    text-align: right;
+    font: 15px droid_arabic_kufibold;
+    color: #fff;
+    margin: 0;
+    padding: 10px 30px 10px 25px;
+    background-color: #BB9F60;
+}
+
+.disabled {
+}
+
+    .disabled a {
+        color: #999;
+        cursor: text;
+    }
+
+        .disabled a:hover {
+            text-decoration: none;
+        }
+
+.healthphoto {
+}
+
+    .healthphoto img {
+        border: 2px #d2d2d2 solid;
+        max-width: 175px;
+        max-height: 185px;
+        margin-right: 10px;
+    }
+
+.health textarea.healthtxtarea {
+    width: 380px !important;
+}
+
+.health td .check {
+    display: inline-block !important;
+    font: bold 16px tahoma;
+}
+
+.health td input[type="checkbox"] {
+    min-height: 15px !important;
+}
+/**/
+.ReportsTitle {
+    border-bottom: 1px #b8b600 solid;
+    background: transparent url('../Images/reportsicon.png') no-repeat right top;
+    padding-right: 30px;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+}
+
+.roomsSectionTitle {
+    background: #464646;
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 13px;
+    font-weight: normal;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.changepasswidbtn { /*border:0px;font:bold 16px tahoma;color:#fff;background:transparent url('../Images/changepasswidbtn.png') no-repeat;width:145px;height:25px;text-align:left;text-align:center;cursor:pointer;line-height:25px;*/
+}
+
+    .changepasswidbtn:hover {
+    }
+
+    .changepasswidbtn:active {
+    }
+
+.reportsList {
+    margin-top: 15px;
+}
+
+    .reportsList li {
+        list-style: none;
+        list-style-position: inside;
+        padding-bottom: 10px;
+        color: #9F8C2B;
+        padding-right: 3px;
+    }
+
+        .reportsList li a {
+            color: #9F8C2B;
+            display: inline-block;
+            background: transparent url('../Images/linkbollet.png') no-repeat right 1px;
+            padding-right: 25px;
+        }
+
+            .reportsList li a:hover {
+                text-decoration: underline;
+            }
+
+.Widdefaultbtn {
+    border: 0px;
+    font: bold 20px tahoma;
+    color: #fff;
+    background: transparent url('../Images/MWiddefaultbtn.png') no-repeat left top;
+    width: 180px;
+    height: 39px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .Widdefaultbtn:hover {
+        background-position: left bottom;
+    }
+
+    .Widdefaultbtn:active {
+        background-position: left top;
+    }
+
+.XWiddefaultbtn {
+    border: 0px;
+    font: bold 20px tahoma;
+    color: #fff;
+    background: transparent url('../Images/Widdefaultbtn.png') no-repeat left top;
+    width: 310px;
+    height: 39px;
+    text-align: center;
+    cursor: pointer;
+}
+
+    .XWiddefaultbtn:hover {
+        background-position: left bottom;
+    }
+
+    .XWiddefaultbtn:active {
+        background-position: left top;
+    }
+/*Grid Style*/
+.gridstyle td {
+    border: 1px #148765 solid;
+    font: bold 15px tahoma;
+    color: #666;
+    border-collapse: collapse;
+}
+
+.gridstyle {
+    border: 1px #148765 solid;
+    font: bold 15px tahoma;
+    color: #666;
+    border-collapse: collapse;
+}
+
+    .gridstyle th {
+        background: #127859;
+        color: #fff;
+        border: 1px #148765 solid;
+        border-bottom: 4px #21614E solid;
+        padding: 8px 5px !important;
+        text-align: center;
+    }
+
+    .gridstyle th {
+        padding: 5px;
+    }
+
+    .gridstyle td {
+        padding: 5px;
+    }
+
+    .gridstyle .item td {
+        background-color: #fff;
+    }
+
+    .gridstyle .altitem td {
+        background-color: #E8F7F2;
+        color: #148765;
+    }
+
+a {
+    color: #AB8903;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.gridstyle td a {
+    color: #AB8903;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+    .gridstyle td a:hover {
+        color: #BA9604;
+        text-decoration: underline !important;
+    }
+
+.gridstyle td a {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+/*BreadCrumb*/
+
+.breadcrumb ul li span {
+    display: inline-block;
+    line-height: 50px; /*padding-right:10px!important;*/
+    font: bold 18px tahoma;
+    color: #a4a4a4;
+}
+/*BreadCrumb Icons*/
+.breadcrumb .home {
+}
+/*.breadcrumb .orglink{background:transparent url('../Images/orgs.png') no-repeat 96% 10px;}
+.breadcrumb .ideveduals{background:transparent url('../Images/indeved.png') no-repeat 97% 10px;}
+.breadcrumb .residenticon{background:transparent url('../Images/residenticon.png') no-repeat 97% 10px;}*/
+/**/
+.resultdiv .roomsSectionTitle {
+    text-align: center;
+    font: bold 17px tahoma;
+    border-bottom-width: 2px;
+}
+
+.newIdentityLogo {
+    min-height: 82px;
+    vertical-align: bottom;
+    background: transparent url('../Images/logo2.png') no-repeat center bottom;
+    position: absolute;
+    width: 250px;
+    bottom: 10px;
+    left: 25px;
+    position: relative;
+    left: -610px;
+    bottom: 0;
+}
+
+    .newIdentityLogo a {
+        display: inline-block;
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        bottom: 0;
+    }
+
+/*Support issues*/
+html .formtable div.t-combobox {
+    direction: rtl !important;
+}
+
+.formtable div.t-dropdown, .t-combobox {
+    width: 217px !important;
+    height: 27px;
+}
+
+    .formtable .t-dropdown .t-input, .t-combobox .t-input {
+        width: 148px !important;
+        min-height: 18px;
+    }
+
+    .t-dropdown .t-select, .t-combobox .t-select {
+        border: 0px !important;
+        height: 25px !important;
+    }
+
+    .t-dropdown .t-arrow-down, .t-combobox .t-arrow-down {
+    }
+
+.t-grid-header {
+    background: #BB9F60;
+    color: #fff;
+    border: 1px #fff solid;
+    border-bottom: 4px #fff solid;
+    padding: 8px 5px !important;
+    text-align: center;
+}
+
+.t-grid-content table {
+    margin-right: 1px;
+}
+
+.t-grid-content {
+    overflow-x: hidden;
+}
+
+.gridstyle th, .t-grid-header th {
+    background: #BB9F60;
+    color: #fff;
+    border: 1px #fff solid;
+    padding: 20px 5px !important;
+    text-align: center !important;
+}
+
+.gridstyle th, .t-grid-header th {
+    padding: 5px;
+}
+
+    .t-grid-header th.t-header .t-link {
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+.gridstyle td, .t-grid td {
+    border: 1px #BB9F60 solid;
+    font: normal 13px tahoma;
+    color: #666;
+    border-collapse: collapse;
+}
+
+.gridstyle, .t-grid {
+    border: 1px #BB9F60 solid;
+    font: bold 15px tahoma;
+    color: #666;
+    border-collapse: collapse;
+}
+
+    .gridstyle td, .t-grid td {
+        padding: 5px;
+    }
+
+    .gridstyle .item td, .t-grid tr td {
+        background-color: #fff;
+    }
+
+    .gridstyle .altitem td, .t-grid .t-alt td {
+        background-color: #d6d6d6;
+        color: #333;
+    }
+
+    .gridstyle td a, .t-grid tr td a {
+        color: white;
+        display: inline-block;
+        text-decoration: none !important;
+    }
+
+        .gridstyle td a:hover, .t-grid tr td a:hover {
+            color: white;
+            text-decoration: none !important;
+        }
+
+    .gridstyle td a, .t-grid tr td a {
+        white-space: nowrap;
+        display: inline-block;
+    }
+
+.field-validation-error {
+    display: inline !important;
+    color: #a72e18 !important;
+    font: normal 12px tahoma !important;
+}
+
+ul.t-reset li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a.nextbtn {
+    line-height: 39px;
+    width: 98px;
+    padding: 11px 0 10px 0;
+    height: 25px !important;
+    min-width: 75px;
+}
+
+    a.nextbtn:hover {
+        background: #7D6836;
+        transition: all 0.3s ease-in-out 0s;
+    }
+
+.t-window-content {
+    direction: ltr;
+}
+
+.t-grid {
+    margin-bottom: 20px;
+}
+
+/*#Safari and chrome#*/
+
+/*@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+/*.personsLinks a span,.landingLinks a span { position: relative;top: 108px;}
+.printFrame .formtable{width:100%!important;margin-right:15px!important}
+}
+*/
+.formtable {
+    direction: rtl;
+}
+
+.t-icon-calendar {
+    background: transparent url('../Images/calendar.gif') no-repeat left top !important;
+    width: 24px;
+    height: 26px;
+    font-size: 0px !important;
+    line-height: 0px !important;
+    margin-top: 0px !important;
+}
+
+.hajjform td .t-picker-wrap input.t-input {
+    width: 90px !important;
+}
+
+.t-dropdown, .t-select.t-header, .t-combobox, .t-upload-button {
+    background-image: none !important;
+    background-color: rgb(245, 245, 245) !important;
+    border-color: #d6d6d6 !important;
+}
+
+.t-dropdown-wrap {
+    border-color: #d6d6d6 !important;
+    height: 24px;
+}
+
+.t-grid-edit {
+    background: #BB9F60;
+    ;
+    border: 0px;
+}
+
+    .t-grid-edit .t-edit {
+        display: none;
+    }
+
+.t-grid-delete {
+    background: #BB9F60;
+    border: 0px;
+    margin-top: 5px !important;
+}
+
+    .t-grid-delete .t-delete {
+        display: none;
+    }
+
+.hajjform td input[type="text"] {
+    min-height: 25px;
+    width: 142px !important;
+}
+
+.hajjform td input[name='EFIRSTNAME'], .hajjform td input[name='EFATHER'], .hajjform td input[name='EGRAND'], .hajjform td input[name='EFAMILY'] {
+    font: normal 13px Tahoma !important;
+    width: 150px !important;
+    line-height: 24px !important;
+}
+
+.hajjform td input[name='AFIRSTNAME'], .hajjform td input[name='AFATHER'], .hajjform td input[name='AGRAND'], .hajjform td input[name='AFAMILY'] {
+    width: 150px !important;
+    line-height: 24px !important;
+}
+
+.addDiv2 td.en span {
+    font: normal 13px Tahoma;
+    text-align: right;
+    padding-left: 12px;
+}
+
+.addDiv2 .t-datepicker, .t-window .t-datepicker {
+    width: 185px !important;
+}
+
+.addDiv2 td .t-picker-wrap input.t-input, .t-window .t-picker-wrap input.t-input {
+    width: 142px !important;
+}
+
+.addDiv2 .hajjform div.t-dropdown {
+    width: 154px !important;
+}
+
+
+.printColumn1 {
+    width: 100px;
+}
+
+.printColumn2 {
+    width: 150px;
+}
+
+.printColumn3 {
+    width: 100px;
+}
+
+.printColumn4 {
+    width: 170px;
+}
+
+.visitresonTxt input[type="text"], .visitresonTxt .single-line {
+    width: 530px !important;
+}
+
+.printFrame .formtable {
+    width: 82%;
+}
+
+    .printFrame .formtable.hajjtable {
+        width: 95% !important;
+    }
+
+    .printFrame .formtable.umrahtable {
+        width: 95% !important;
+    }
+
+.printFrame .gridstyle th, .printFrame .t-grid-header th {
+    background: #BB9F60;
+    border-color: #313842 !important;
+    color: #fff !important;
+}
+
+.printFrame .t-grid, .printFrame .t-grid td {
+    border-color: #313842 !important;
+    border-top-width: 1px !important;
+}
+
+.t-grid-header th.t-last-header {
+    border-width: 0px !important;
+}
+/*.help{display:inline-block;height:33px;font:bold 15px tahoma;color:#bb9f60;line-height:33px;padding-left:37px;background:transparent url('../Images/HelpMofaAR.png') no-repeat left top;position:absolute;top:100px;left:265px}
+*/
+.table-label {
+    color: #333 !important;
+    font: bold 12px droid_arabic_kufiregular !important;
+    padding: 0 5px !important;
+    width: 171px !important; /*background:#d6d6d6;*/
+    border: 1px solid #fff;
+    vertical-align: top;
+}
+
+    .table-label + td {
+        display: inline-block;
+        margin-right: 5px;
+        width: 180px;
+        margin-top: 5px;
+    }
+
+.table-row-class div {
+    background: #fff !important;
+}
+
+.table-row-class {
+    height: 30px;
+}
+
+table.hajjtable tr.table-row-class td.table-label[colspan="3"] {
+    background: none;
+}
+
+.help2 {
+    left: 90px;
+}
+
+.ScrollTables {
+    max-height: 350px;
+    overflow-y: auto;
+    border: 1px #d6d6d6 solid;
+    clear: both;
+    margin: 10px 0 15px;
+    padding: 10px 10px 10px 0;
+}
+
+    .ScrollTables table {
+        width: 97%;
+    }
+
+.GridStitle {
+    color: #bb9f60;
+    margin: 20px 0;
+}
+
+.grid2 {
+    margin-right: 10px;
+}
+
+
+/*Ticket**/
+.TicketNote {
+    font: bold 16px tahoma !important;
+    margin: 5px 0 10px;
+    border: 0px #d6d6d6 solid;
+    padding: 0 10px;
+}
+
+    .TicketNote .formtable {
+        width: 100% !important;
+    }
+
+.enNote {
+    direction: ltr;
+    text-align: left;
+}
+
+    .enNote > span {
+        text-align: left !important;
+    }
+
+.TicketNote .formtable td > span {
+    padding-left: 0px;
+}
+
+.TicketNote .formtable td ul {
+    margin-bottom: 0px;
+}
+
+.enNote ul li {
+    font: bold 12px verdana;
+}
+
+fieldset.TicketNote {
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+    fieldset.TicketNote legend {
+        color: #BB9F60;
+    }
+
+.TicketNote .formtable {
+    margin-top: 10px;
+}
+
+    .TicketNote .formtable td input[type="text"] {
+        width: 250px !important;
+    }
+
+    .TicketNote .formtable td select {
+        width: 263px !important;
+    }
+
+    .TicketNote .formtable td .en {
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 2px;
+        font: bold 12px verdana !important;
+    }
+
+    .TicketNote .formtable td textarea {
+        width: 445px !important;
+        margin-left: 0px !important;
+        height: 100px;
+        max-height: 100px;
+    }
+
+.TicketNote .btndiv {
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+
+.btndiv .clear {
+    height: 10px;
+}
+
+.printFrame .formtable td input[type="text"] {
+    line-height: 25px !important;
+}
+
+.printFrame .visitresonTxt input[type="text"] {
+    width: 548px !important;
+}
+
+.printFrame .t-grid {
+    margin-right: 1px !important;
+}
+
+@media print {
+    .printFrame .gridstyle th, .printFrame .t-grid-header th {
+        background: #fff;
+        border-color: #313842 !important;
+        color: #313842 !important;
+    }
+
+    .printFrame .t-grid, .printFrame .t-grid td {
+        border-color: #313842 !important;
+        border-top-width: 1px !important;
+    }
+}
+
+input[id='VisaPeriod'] {
+    display: inline-block; /*margin:5px 0*/
+}
+
+td.visa-period-td input#VisaPeriod {
+    position: relative;
+    top: -4px;
+}
+
+input[id="VisaPeriod"] + span.field-validation-error {
+    display: inline-block !important;
+    margin-right: 3px;
+    margin-top: 10px;
+}
+
+.refreshCaptcha {
+    display: inline-block;
+    border: 0px;
+    width: 29px;
+    height: 29px;
+    background: transparent url('../Images/refreshCaptcha.png') no-repeat left top;
+    cursor: pointer;
+    top: 0 !important;
+    margin-top: -24px;
+}
+
+.logintable .refreshCaptcha { /**float:none!important;*margin-bottom:5px;*margin-right:3px*/
+}
+
+.refreshCaptcha {
+    position: relative;
+    bottom: 15px;
+}
+
+:root .logintable {
+    position: relative;
+    bottom: 0px;
+}
+
+.refreshCaptcha { /*position:relative\0/;top:-1px\0/*/
+}
+
+:root .logintable { /*position:relative\0/;top:-11px\0/*/
+}
+
+
+#addresult .umrahtable {
+    width: 100%;
+}
+
+    #addresult .umrahtable td .savebtn {
+        position: relative;
+        top: -8px;
+    }
+
+    #addresult .umrahtable td .t-upload-button {
+        margin-right: 11px;
+    }
+
+#addDiv .health td .t-picker-wrap {
+    width: 185px;
+}
+
+.gridstyle th, .t-grid-header th {
+    font: normal 13px droid_arabic_kufiregular !important;
+}
+
+.ValPass .field-validation-error {
+    width: 181px !Important;
+    white-space: normal !Important;
+}
+
+.Notifications {
+    color: Red;
+    font-size: larger;
+    text-align: center;
+    display: none;
+}
+
+.DisplayImage {
+    height: 30px;
+    width: 116px;
+}
+
+.RedError {
+    color: Red;
+}
+
+.KHtabPrint {
+    width: 85%;
+    margin: 10px auto;
+}
+
+.FormIcon1 {
+    float: right;
+    padding: 10px;
+    text-align: right;
+    color: #084832;
+    background-color: #f7f7f7;
+    margin: 10px 10px 0 0;
+}
+
+.HeaderSU {
+    width: 560px;
+    background: #e7e7e7;
+    padding: 10px 29px 10px 25px;
+    font: normal 15px droid_arabic_kufibold;
+    color: #bb9f60;
+    margin: -10px 0 10px 0;
+    float: right;
+}
+
+div#tabslist + h3.form-title, #tabs_content.tab_content > h3.form-title {
+    width: 560px;
+    background: #e7e7e7;
+    padding: 10px 29px 10px 25px;
+    font: normal 15px droid_arabic_kufibold;
+    color: #bb9f60;
+    margin: 0;
+    float: right;
+}
+
+h3.form-title {
+    text-align: right;
+    font: 15px droid_arabic_kufibold;
+    color: #fff;
+    margin: 0;
+    padding: 10px 10px 10px 27px;
+    background-color: #BB9F60;
+    float: right;
+    width: 96%;
+}
+
+h3.form-title2 {
+    text-align: right;
+    font: 15px droid_arabic_kufibold;
+    color: #fff;
+    margin: 0;
+    padding: 10px 10px 10px 27px;
+    background-color: #BB9F60;
+}
+
+div#tabslist + h3.form-title {
+    width: 560px;
+    float: none;
+}
+
+form div.innerbox-mid h3.form-title {
+    float: none;
+}
+
+.HeadC {
+    background: #d6d6d6;
+    width: 99%;
+}
+
+
+span.infoButton {
+    background: url("../Images/imark_normal.png") no-repeat !important;
+    height: 16px;
+    width: 17px;
+    display: inline-block;
+    padding-left: 3px;
+    padding-right: 3px;
+    display: inline-block !important;
+}
+
+    span.infoButton:hover {
+        background: transparent url("../Images/imark.png") no-repeat;
+        cursor: pointer;
+    }
+
+span.btnInfoUS {
+    background: url("../Images/imark_normal.png") no-repeat !important;
+    height: 16px;
+    width: 17px;
+    display: inline-block;
+    padding-right: 3px;
+    padding-left: 3px;
+    display: inline-block !important;
+}
+
+    span.btnInfoUS:hover {
+        cursor: pointer;
+    }
+
+.w3c {
+    vertical-align: middle;
+    float: right;
+    margin: 0 10px;
+}
+
+
+
+
+/*new styles*/
+/*header styles*/
+.container a {
+    color: #333333;
+}
+
+.page-footer a {
+    color: #fff;
+}
+
+.language-switch {
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+
+    .language-switch a {
+        float: left;
+        white-space: nowrap;
+        margin: 0;
+        line-height: 17px;
+    }
+
+        .language-switch a + a, .language-switch a + a + a {
+            margin-left: 15px;
+        }
+
+        .language-switch a:hover {
+            color: #BB9F60;
+        }
+/*.public-portal-link{width:170px;}
+.contact-us.fleft{width:62px;}*/
+.langswitch {
+    float: left;
+    color: #333;
+    font-family: arial;
+    margin-top: 3px;
+    line-height: 22px;
+}
+
+.logo {
+    width: 100%;
+    height: 120px;
+}
+
+.formhead {
+    clear: both;
+    float: left;
+    margin-bottom: 15px;
+    position: relative;
+    top: 5px;
+}
+
+    .formhead a, .formhead i { /*color:*/
+    }
+
+    .formhead a {
+        font-family: droid_arabic_kufiregular;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+        .formhead a:hover, .formhead span:hover, .formhead i:hover {
+            color: #bb9f60;
+        }
+
+    .formhead i {
+        font-size: 20px;
+        margin-left: 8px;
+        vertical-align: middle;
+    }
+
+    .formhead span {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+.header .formhead span {
+    white-space: nowrap;
+}
+
+.below-header-img {
+    float: right;
+    margin: 0px 0 20px 0;
+}
+
+    .below-header-img img {
+        display: block;
+    }
+
+.logo > a {
+    margin-top: -25px;
+}
+
+.logo a {
+    background: url('../Images/MOFA-Home_Logo.png') no-repeat right center;
+    width: 580px;
+    height: 100px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.head-separator {
+    color: #333333 !important;
+    display: inline-block;
+    float: left;
+    margin: 0 5px;
+}
+
+/**/
+/*home left box*/
+.leftbox.fleft table.formtable script + div {
+    ;
+    float: left;
+    margin-top: -44px;
+    margin-left: 0px;
+    margin-right: 66px;
+    width: 225px;
+}
+
+div.leftbox-mid h3.visasearchTitle + div.error-msg + table.formtable {
+    margin: 20px 0 0 0;
+}
+
+.formtable input#Captcha {
+    margin-top: -13px;
+    margin-right: 66px;
+    position: relative;
+    top: 0px;
+}
+
+h3.visasearchTitle + div + table.formtable table.formtable input#Captcha {
+    top: -10px !important;
+}
+
+.CapchaTitle {
+    margin: -5px 0 12px !important;
+}
+
+/*body new styles*/
+.homebtns i {
+    color: #BB9F60;
+    display: inline-block;
+    font-size: 22px;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+/*new footer styles*/
+footer a {
+    width: 100%;
+    margin-right: 0;
+}
+
+/*inner new styles*/
+.orgs-tab a {
+    margin-right: 7px;
+}
+
+.personvisalink i, .orgvisalink i {
+    color: #bb9f60;
+    font-size: 18px;
+    vertical-align: middle;
+    margin-right: 2px;
+    display: inline-block;
+    margin-top: 3px;
+    width: 0px;
+}
+
+.personvisalink p {
+    margin: 3px 0 0;
+    min-width: 230px;
+}
+
+.personvisalink {
+    margin: 0;
+}
+
+    .orgvisalink.fleft, .personvisalink .fleft {
+        margin-right: 0; /*padding-left: 0px;*/
+        padding-right: 0;
+    }
+
+.orgvisalink p {
+    margin: 0px;
+    padding: 0px;
+    width: 230px;
+}
+
+.orgvisalink a {
+    font: normal 15px droid_arabic_kufibold;
+    margin: 0 0 5px 0;
+    padding: 0;
+    line-height: normal;
+    display: inline !important;
+}
+
+.orgvisalink {
+    margin-top: 10px;
+}
+
+.tab_content {
+    background-color: #D6D6D6;
+    width: 99%;
+}
+
+.personcontentBG + img {
+    display: none;
+}
+/*error msg in visa wizard*/
+#lblMsgSponserId, #lblMsgSponserCompanyID {
+    font-family: tahoma !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+    color: #a72e18 !important;
+}
+
+/*error msg in wizards for authentication code- styles fix*/
+form + div div.error-msg {
+    width: 100% !important;
+    float: right;
+}
+
+div div.error-msg { /*float:right;width:92.5%!important;*/
+}
+
+
+.t-add {
+    display: none;
+}
+
+div.divformtable table.formtable td {
+    font: normal 13px tahoma;
+}
+
+.t-icon {
+    display: block;
+}
+/*print visa request*/
+.printhead > img {
+    margin: 22px 0 35px;
+}
+
+/*opinions page styles*/
+table.formtable.opinions-form td {
+    float: right;
+    margin-bottom: 0;
+    width: 160px;
+    font: normal 13px/20px tahoma;
+    color: #2d2d2d;
+}
+
+.formtable.opinions-form td > span, table.formtable.opinions-form div.editor-label span {
+    font: normal 13px/20px tahoma;
+    color: #2d2d2d;
+}
+
+.field-validation-error {
+    font-size: 12px !important;
+}
+
+.formtable.opinions-form td input[type="text"] {
+    width: 460px !important;
+    height: 25px;
+    background: #EBEBEB;
+}
+
+.formtable.opinions-form td textarea {
+    width: 460px !important;
+    background: #EBEBEB;
+    height: 114px;
+}
+
+.formtable.opinions-form td select { /*width:473px!important*/
+}
+
+table.formtable.opinions-form div.editor-label em {
+    font: 12px tahoma !important;
+    color: #a72e18 !important;
+}
+
+table.formtable.opinions-form div.btndiv {
+    float: right;
+}
+
+.formtable.opinions-form input#Captcha {
+    margin: 0 0 10px 0;
+}
+
+.formtable.above-opinions-form li {
+    font: normal 13px tahoma;
+    background: url('../Images/bullets.png') no-repeat right center;
+    padding-right: 15px;
+    list-style: none;
+}
+
+/*success msg*/
+div.errorMessage span.ValidationSucc {
+    min-height: 25px !important;
+    height: auto !important;
+    width: auto !important;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 50px 10px 20px;
+    margin: 0 0 20px;
+    position: relative;
+    line-height: 24px;
+    display: block;
+    margin: 5px 0 10px;
+    background: url(../images/successmsg.png) no-repeat right 10px #2f931c !important;
+}
+
+.success-msg {
+    min-height: 25px !important;
+    height: auto !important;
+    width: 92.5% !important;
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 50px 10px 20px;
+    margin: 0 0 20px;
+    position: relative;
+    line-height: 24px;
+    display: block;
+    margin: 5px 0 10px;
+    background: url(../images/successmsg.png) no-repeat right 10px #2f931c !important;
+    clear: both;
+}
+
+    .success-msg p { /*font:bold 22px tahoma;*/
+        color: #fff !important;
+        margin: 0 !important;
+    }
+
+.error-msg {
+    min-height: 25px !important;
+    height: auto !important;
+    width: auto !important;
+    color: #fff !important;
+    font-size: 13px;
+    padding: 10px 50px 10px 20px;
+    margin: 0 0 20px;
+    position: relative;
+    line-height: 24px;
+    font-family: droid_arabic_kufiregular;
+    display: block;
+    margin: 5px 0 10px;
+    background: url(../images/error-msg.png) no-repeat right 10px #a72e18 !important;
+    font-weight: normal;
+    clear: both;
+}
+
+.RedError {
+    min-height: 25px !important;
+    height: auto !important;
+    width: auto !important;
+    color: #a72e18 !important;
+    font: bold 13px droid_arabic_kufiregular;
+    padding: 10px 33px 10px 20px;
+    margin: 0 0 20px;
+    position: relative;
+    line-height: 24px;
+    display: block;
+    margin: -60px -40px 0 0;
+    font-weight: normal;
+}
+
+
+/*breadcrumb**/
+.breadcrumb {
+    margin-bottom: 20px;
+    float: right;
+    width: 100%;
+}
+
+    .breadcrumb ul {
+        padding: 0;
+        margin: 0 5px;
+    }
+
+        .breadcrumb ul li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            float: right;
+        }
+
+            .breadcrumb ul li.last {
+                background: none;
+            }
+
+    .breadcrumb a {
+        color: #fff;
+        min-width: 70px;
+        white-space: nowrap;
+    }
+
+        .breadcrumb a:hover {
+            color: #BB9F60;
+        }
+
+    .breadcrumb ul li span {
+        font: normal 12px droid_arabic_kufiregular;
+        padding: 5px;
+        color: #BB9F60;
+    }
+
+/*after breadcrumb*/
+.rightbox-mid > ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+    .rightbox-mid > ul li {
+        background: url('../Images/bullets.png') right center no-repeat;
+        list-style: none;
+        padding-right: 10px;
+    }
+
+/*login captcha */
+.logintable input#Captcha {
+    margin: 0 0 0 0;
+}
+
+.captcha-label {
+    float: right;
+    font: normal 13px tahoma !important;
+}
+
+.captcha-label {
+    float: right;
+    font: normal 13px tahoma !important;
+}
+
+/*hajj inner pages styles*/
+.formStitle {
+    background: #464646;
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 13px;
+    font-weight: normal;
+    margin: 0;
+    border-bottom: 1px solid #fff;
+    margin-top: 10px;
+}
+
+.t-icon.t-add, .t-icon.t-insert, .t-icon.t-cancel {
+    display: none;
+}
+
+div.btndiv + div div.error-msg {
+    float: right;
+    width: 93% !important;
+}
+
+#addDiv + br + div.btndiv, .bottom-btns-wrapper, #divFirst div.btndiv, #divSecond div.btndiv, #divThird div.btndiv, #divFourth div.btndiv, #divFifth div.btndiv, center + .btndiv {
+    float: left;
+    width: 209px;
+}
+
+    .bottom-btns-wrapper input.FL {
+        margin: 0;
+    }
+
+
+
+/*health styles*/
+.password-change-sign-out > span {
+    margin: 0 5px;
+}
+
+.health-service .password-change-sign-out, .hajj-services .password-change-sign-out {
+    margin-bottom: 0px;
+    margin: 3px;
+}
+
+.health-service-inner-box h3.form-title, .hajj-services-inner-box h3.form-title {
+    clear: both;
+}
+
+.password-change-sign-out a, .password-change-sign-out span { /*min-width: 88px;*/
+    margin-bottom: 0;
+    width: auto !important;
+    vertical-align: middle;
+    float: none;
+}
+
+    .password-change-sign-out a.changepasswidbtn {
+        white-space: nowrap;
+    }
+
+/*all buttons styles*/
+.go-btn, .outbtn, .orgvisalink .enterbtn, .enterbtnNormal, .prevbtn, .nextbtn, .defaultbtn, .registerbtn, .formloginbtn, .printbtn, .logedin.printbtn, .t-upload-button, .disagree, .savebtn {
+    border: 0px;
+    font: normal 15px droid_arabic_kufiregular !important;
+    color: #fff !important;
+    background: #BB9F60;
+    min-width: 89px;
+    height: 26px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #dccead;
+    border-right-color: #9b8a66;
+    border-bottom-color: #695939;
+    padding: 2px 10px !important;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.prevbtn {
+    float: right;
+    margin-left: 0 !important;
+}
+
+.defaultbtn.fleft[value="عضوية جديدة"] {
+    min-width: 105px;
+}
+
+.t-upload-button {
+    background: #BB9F60 !important;
+}
+
+.t-update {
+    height: auto !important;
+}
+
+.printbtn {
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.enterbtn, .outbtn {
+    float: right;
+}
+
+.enterbtn {
+    margin: 0 0px 20px 5px;
+}
+
+.defaultbtn {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.disagree, .prevbtn {
+    background: #999;
+    cursor: pointer;
+    border: 1px solid #d6d6d6;
+    border-right-color: #d6d6d6;
+    border-bottom-color: #695939;
+    color: #fff;
+}
+
+.prevbtn, .nextbtn, .disagree, .t-grid-insert, .t-grid-cancel, .t-grid-edit, .t-grid-delete, .t-grid-update, a.nextbtn {
+    width: 70px !important;
+}
+
+.registerbtn { /*width:77px;*/
+}
+
+.t-button, button.t-button.t-state-disabled:hover, a.t-button.t-state-disabled:hover, .t-state-disabled:not(.t-link) {
+    border: 0px;
+    font: normal 12px droid_arabic_kufiregular !important;
+    color: #fff !important;
+    background: #BB9F60;
+    width: 117px;
+    height: auto;
+    text-align: center;
+    padding-left: 0px;
+    cursor: pointer;
+    border: 1px solid #dccead;
+    border-right-color: #9b8a66;
+    border-bottom-color: #695939;
+    font-size: 12px;
+    padding: 0;
+    margin-left: 9px;
+    border-radius: 0 !important; /*padding:7px 4px 0 8px*/
+}
+
+.go-btn.fleft {
+    position: relative;
+    z-index: 100;
+    top: -25px;
+    margin-left: 25px;
+    min-width: 96px;
+}
+/*.outbtn,.orgvisalink .enterbtn{border:0px;font:normal 12px droid_arabic_kufiregular !important;color:#fff;background:#BB9F60;min-width:117px;height:auto;text-align:center;padding-left:0px;cursor:pointer;border:1px solid #dccead;border-right-color:#9b8a66;border-bottom-color:#695939;font-size:12px;padding:0 10px!important;margin-left:9px;float:right;margin-top:5px;margin-bottom:15px}
+{border:0px;font:bold 16px tahoma;color:#fff;background:transparent url('../Images/savebtn.png') no-repeat;width:72px;height:25px;text-align:left;padding-left:30px;cursor:pointer;}
+*/
+.disabled .enterbtn {
+    border: 0px;
+    font: normal 12px droid_arabic_kufiregular;
+    color: #999;
+    background: transparent url('../Images/disabled-enterbtn.png') no-repeat;
+    width: 72px;
+    height: 25px;
+    text-align: left;
+    padding-left: 30px;
+    cursor: text;
+}
+
+.enterbtn.disabled {
+    border: 0px;
+    font: bold 16px tahoma;
+    color: #999;
+    background: transparent url('../Images/disabled-enterbtn.png') no-repeat;
+    width: 72px;
+    height: 25px;
+    text-align: left;
+    padding-left: 30px;
+    cursor: text;
+}
+
+.innerbox-mid a.enterbtn, a.enterbtn {
+    width: 45px;
+}
+
+/*.enterbtnNormal{border:0px;font:bold 16px tahoma;color:#fff;background:transparent url('../Images/changepasswidbtn.png') no-repeat;width:74px;height:25px;text-align:left;padding-left:28px;cursor:pointer;line-height:24px}
+*/
+
+/*.prevbtn{border:0px;font:normal 13px droid_arabic_kufiregular !important;color:#fff;background:#666666;width:106px;text-align:center;padding-left:0px;cursor:pointer;border:1px solid #dccead;border-right-color:#d6d6d6;border-bottom-color:#695939;font-size:12px;padding:0;margin-left:9px}
+*/
+
+.prevbtn.disabled {
+    color: #777;
+    background: transparent url('../Images/prevbtn-inactive.png') no-repeat;
+    cursor: text;
+}
+
+.nextbtn.disabled {
+    color: #777;
+    background: transparent url('../Images/nextbtn-inactive.png') no-repeat;
+    cursor: text;
+}
+
+.prevbtn[disabled="disabled"] {
+    color: #777;
+    background: transparent url('../Images/prevbtn-inactive.png') no-repeat;
+    cursor: text;
+}
+
+/*.nextbtn{border:0px;font:normal 13px droid_arabic_kufiregular !important;color:#fff!important;background:#BB9F60;width:106px!important;text-align:center;padding-left:0px;cursor:pointer;border:1px solid #dccead;border-right-color:#9b8a66;border-bottom-color:#695939;font-size:12px;padding:0;margin-left:9px}
+*/
+
+/*.defaultbtn{border:0px;font:normal 13px droid_arabic_kufiregular !important;color:#fff;background:#BB9F60;width:117px;text-align:center;padding-left:0px;cursor:pointer;border:1px solid #dccead;border-right-color:#9b8a66;border-bottom-color:#695939;font-size:12px;padding:2px 0 2px 0!important;margin-left:9px}
+
+.registerbtn{border:0px;font:normal 13px droid_arabic_kufiregular !important;color:#fff;background:#BB9F60;width:117px;text-align:center;padding-left:0px;cursor:pointer;border:1px solid #dccead;border-right-color:#9b8a66;border-bottom-color:#695939;font-size:12px;padding:2px 0 2px 0!important;margin-left:9px}
+*/
+
+/*
+.formloginbtn{border:0px;font:bold 20px tahoma;color:#fff;background:transparent url('../Images/formloginbtn.png') no-repeat left top;width:150px;height:39px;text-align:right;padding-right:20px;cursor:pointer}
+*/
+/*
+.printbtn{border:0px;font:normal 12px droid_arabic_kufiregular !important;color:#fff!important;background:#BB9F60;min-width:117px;height:auto;text-align:center;padding-left:0px;cursor:pointer;border:1px solid #dccead;border-right-color:#9b8a66;border-bottom-color:#695939;font-size:12px;padding:0 10px!important;margin-left:9px;float:left;margin-top:5px;margin-bottom:20px;}
+*/
+/*
+.logedin.printbtn{font:bold 16px tahoma;padding-right:12px}
+*/
+/*
+.t-upload-button{border:0px;font:normal 12px droid_arabic_kufiregular!important;color:#fff;background:#BB9F60!important;width:117px;height:24px;text-align:center;padding-left:0px;cursor:pointer;border:1px solid #dccead;border-right-color:#9b8a66;border-bottom-color:#695939;font-size:12px;padding:0;margin-left:9px}
+*/
+
+
+input[type="button"]:hover, input[type="submit"]:hover, button[type="button"]:hover, button[type="submit"]:hover, .t-button:hover, .t-upload-button:hover {
+    background: #7D6836;
+    transition: all 0.3s ease-in-out 0s !important;
+}
+
+button.refreshCaptcha:hover {
+    background: url('../Images/refreshCaptcha.png') no-repeat !important;
+}
+
+.disagree:hover, .prevbtn:hover {
+    background: #333 !important;
+    color: #fff;
+}
+
+/*buttons with sprite backgrounds
+.printbtn:hover,div.btndiv input.printbtn:hover,button.printbtn:hover,input.printbtn:hover{background:#7D6836 url('../Images/buttons_sprite_bg.png') -8px -181px no-repeat!important}
+
+.printbtn{background:#BB9F60 url('../Images/buttons_sprite_bg.png') -8px -181px no-repeat!important}
+.printbtn:hover{background:#7D6836 url('../Images/buttons_sprite_bg.png') 8px -181px no-repeat!important}
+.t-grid-add{background:#BB9F60 url('../Images/buttons_sprite_bg.png') -13px 4px no-repeat}
+.t-grid-add:hover{background:#7D6836 url('../Images/buttons_sprite_bg.png') -13px 4px no-repeat!important}
+.t-grid-insert{background:#BB9F60 url('../Images/buttons_sprite_bg.png') -13px 4px no-repeat!important}
+.t-grid-insert:hover{background:#7D6836 url('../Images/buttons_sprite_bg.png') -13px 4px no-repeat!important}
+.t-grid-cancel,.t-grid-delete{background:#BB9F60 url('../Images/buttons_sprite_bg.png') -13px -60px no-repeat}
+.t-grid-cancel:hover,.t-grid-delete:hover{background:#7D6836 url('../Images/buttons_sprite_bg.png') -13px -60px no-repeat!important}
+.t-grid-edit{background:#BB9F60 url('../Images/buttons_sprite_bg.png') -13px -120px no-repeat}
+.t-grid-edit:hover{background:#7D6836 url('../Images/buttons_sprite_bg.png') -13px -120px no-repeat!important}
+*/
+
+/**popup window styles*/
+div#PersonsPopUp div.t-window-content {
+    width: 945px;
+}
+
+div.t-window {
+    border-radius: 0px;
+}
+
+a.t-link.t-state-hover {
+    background: #BB9F60;
+}
+/*Omra visa styles*/
+.visas-wrapper table.formtable {
+    width: 546px;
+}
+
+.visas-wrapper {
+    float: right;
+    width: 100%;
+}
+
+.addOmraVisa .t-dropdown {
+    margin-top: 5px;
+}
+
+/*calendar styles*/
+table.t-content .t-link {
+    color: #9C771F;
+    font: normal 11px tahoma;
+}
+
+.t-calendar td {
+    border: 1px solid #DDDDDD;
+    background: #eeeeee;
+}
+
+    .t-calendar td:hover {
+        background: #fff;
+    }
+
+.t-calendar .t-header, .t-grid-header {
+    background: #F7F7F9 !important;
+}
+
+.t-calendar .t-state-focus {
+    background: #D0D0D0;
+}
+
+.t-other-month, .t-other-month a {
+    color: #fff !important;
+    background: #fff !important;
+}
+
+.t-arrow-prev {
+    background: url('../Images/arrowleft.gif') no-repeat !important;
+}
+
+.t-arrow-next {
+    background: url('../Images/arrowright.gif') no-repeat !important;
+}
+
+/*chamber styles*/
+h4.roomsSectionTitle + table.formtable, h4.roomsSectionTitle + table.formtable + table {
+    width: 100%;
+}
+
+    h4.roomsSectionTitle + table.formtable td {
+        font-family: droid_arabic_kufiregular !important;
+    }
+
+.chamber-td-alignment {
+    width: 145px;
+}
+
+.chamber-table-alignment .t-dropdown {
+    margin-top: 5px;
+}
+
+.chamber-table-alignment .chmaber-submit-button-cell button {
+    margin-top: 8px;
+}
+
+.ie8 .chamber-table-alignment .chmaber-submit-button-cell button {
+    margin-top: -1px;
+}
+
+.formtable td.chamber-td-margin-align + td input {
+    margin-bottom: 10px;
+}
+
+h4.roomsSectionTitle + table.formtable td button.defaultbtn, h4.roomsSectionTitle + table.formtable + table td button {
+    margin: 5px 0 0;
+}
+
+.alert-link {
+    color: #A9873C !important;
+}
+
+td.chamber-td-alignment + td + td button {
+    margin-right: 10px;
+    margin-top: 4px;
+}
+
+button#ReportsDetails {
+    min-width: 125px;
+}
+
+td.chamber-td-alignment + td div.t-dropdown { /*margin-top: 10px;*/
+}
+
+.table-with-borders td {
+    border: 1px solid #d6d6d6;
+    padding: 5px;
+}
+
+.table-with-borders {
+    background: #EBEBEB;
+    border: 1px solid #D6D6D6;
+    width: 100%;
+}
+
+br.clear + h3.form-title, form div.innerbox-mid h3.form-title, div.error-msg.msg-hidden + h3.form-title.FR {
+    margin-top: -18px;
+    margin-bottom: 10px;
+}
+
+.printhead h3.form-title {
+    margin-top: 0 !important;
+}
+
+h3.form-title.no-mrgn-top {
+    margin-top: 0 !important;
+}
+
+#Persons.t-widget.t-grid { /*float:right;*/
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.error-msg + h3.form-title.FR {
+    margin-top: 0;
+}
+/*style for the drop down list inside chamber - users requests management*/
+div.t-animation-container div.t-group {
+    width: 185px !important;
+}
+
+.chmaber-submit-button-cell {
+    display: inline-block;
+    margin-top: -3px;
+}
+
+/*visa credentials styles*/
+.welcomeuser {
+    color: #b4a400;
+    display: inline-block;
+    background: #ebebeb;
+    color: #333;
+    max-width: 617px;
+    width: 100%;
+    min-height: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #d6d6d6;
+}
+
+.username-icon-wrapper {
+    float: right;
+    width: 48%;
+    margin-top: 4px;
+    margin-right: 5px;
+}
+
+.welcomeuser span {
+    font: 13px Tahoma !important;
+}
+
+.welcomeuser .icon { /*background:transparent url('../Images/logged_user_icon.png') no-repeat -2px 0;width:18px;height:24px;*/
+    display: inline-block;
+    margin-left: 0px;
+    vertical-align: middle;
+    clear: both;
+    font-size: 22px;
+}
+
+.username-icon-wrapper i {
+    font-size: 22px;
+}
+
+.welcome-user-msg {
+    font: normal 13px droid_arabic_kufiregular !important;
+}
+
+.welcomeuser .iconOrgs {
+    background: transparent url('../Images/orgs.png') no-repeat right 1px;
+    width: 24px;
+    height: 18px;
+    display: inline-block;
+    margin-left: 5px;
+}
+/*.fright.user-name {margin-right: 30px;position:relative;top:-1px;}*/
+.company-user.fright.user-name {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+    .company-user.fright.user-name i {
+        font-size: 22px;
+    }
+
+.marg-top-up {
+    margin-top: -39px;
+    float: none;
+}
+
+.user-name-logged-in {
+    font-weight: bold !important;
+}
+
+.welcomeuser.fleft > div {
+    padding: 20px 20px 20px 0;
+}
+
+.password-change-sign-out {
+    margin: 4px;
+    float: left;
+    height: auto;
+    text-align: left;
+}
+
+.enterbtn, .changepasswidbtn {
+    color: #333;
+}
+
+
+/*commercial visit visa style*/
+#Persons {
+    width: 100%;
+}
+/*generic*/
+
+
+
+/*popup screen in wizards add person */
+.t-window-titlebar {
+    background: #000 !important;
+    border-top-left-radius: 0;
+    border-radius: 0;
+    margin: 10px 15px;
+}
+
+#PersonsPopUp .t-window-actions {
+    background: transparent;
+}
+
+#PersonsPopUp .t-window-titlebar .t-link {
+    margin: 10px 0 0 15px;
+}
+
+#PersonsPopUp .t-window-title {
+    color: #fff;
+    margin-right: 15px;
+}
+
+#Personsform div.t-dropdown {
+    width: 181px;
+    margin-top: 2px !important;
+}
+
+#Personsform table {
+    width: 901px;
+}
+
+#Personsform #Container {
+    width: auto !important;
+}
+
+#Personsform .t-edit-form-container {
+    margin: 0 10px 10px;
+}
+
+#PersonsPopUp .t-edit-form-container .field-validation-error { /*display:block !important;*/
+}
+/*wizards styles*/
+#VisitResonse { /*width:205px*/
+}
+
+div.Wizard-Step + div.divformtable + div + br + center {
+    border-bottom: 1px solid #333333;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+/*create wizards link*/
+span.infoLink {
+    color: #BB9F60 !important;
+}
+
+/*invitation letter styles*/
+.invitation-letter-alert {
+    background: #b2944d;
+    padding: 20px;
+    color: #fff;
+    font: normal 13px droid_arabic_kufiregular;
+    margin-top: 10px;
+}
+
+    .invitation-letter-alert h2 {
+        font: normal 18px droid_arabic_kufiregular !important;
+        margin: 0;
+    }
+
+    .invitation-letter-alert i {
+        font-size: 35px;
+        padding: 0 0 0 10px;
+        vertical-align: middle;
+    }
+
+
+.undertake.invitation > div {
+    margin-top: 7px;
+}
+
+div.invitation .icon-warning-sign {
+    margin: 0 0 0 13px;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+center h3 {
+    font-family: droid_arabic_kufibold;
+}
+
+.no-border-right {
+    border-right: 0 !important;
+}
+
+.no-border-left {
+    border-left: 0 !important;
+}
+/*footer tooltip styles*/
+
+.tooltip {
+    display: inline;
+    position: relative;
+    font: normal 10px droid_arabic_kufiregular,Tahoma !important;
+    color: transparent !important;
+}
+
+    .tooltip:hover {
+        text-decoration: none;
+    }
+
+        .tooltip:hover:after {
+            background: #111;
+            background: rgba(0,0,0,.8);
+            border-radius: 0px;
+            bottom: 18px;
+            color: #fff;
+            content: attr(data-title);
+            display: block;
+            left: -346%;
+            padding: 5px 15px;
+            position: absolute;
+            white-space: nowrap;
+            z-index: 98;
+        }
+
+        .tooltip:hover:before {
+            border: solid;
+            border-color: #111 transparent;
+            border-width: 6px 6px 0 6px;
+            bottom: 12px;
+            content: "";
+            display: block;
+            left: 24%;
+            position: absolute;
+            z-index: 99;
+            text-indent: 0px !important;
+        }
+
+.footer-list-mobile a {
+    color: white !important;
+}
+
+i.icon-tablet {
+    display: none !important;
+}
+
+.footer-list-mobile li a i:hover {
+    color: #BB9F60 !important;
+}
+
+.icon-fk.tooltip {
+    display: none;
+}
+
+.FL {
+    float: left !important;
+}
+
+.FR {
+    float: right !important;
+}
+
+/*bug fixing*/
+.formtable.FR {
+    float: none !important;
+}
+
+div.btndiv.bottom-btns-wrapper + div + div.importantInfo {
+    margin-top: 50px;
+}
+/*.ValPass {display: inline-block;float: left;left: 108px;position: relative;top: -28px;width: 10px !important;}*/
+
+div#divFourth center {
+    margin-bottom: 20px;
+}
+
+table.formtable + br + center input#Captcha {
+    margin-bottom: 20px;
+}
+
+div.invitation-letter-alert + div + br + table.formtable td {
+    padding-right: 10px;
+}
+
+    div.invitation-letter-alert + div + br + table.formtable td + td + td {
+        margin-right: 4px;
+        padding-right: 45px;
+    }
+
+        div.invitation-letter-alert + div + br + table.formtable td + td + td + td {
+            padding-right: 0;
+        }
+
+table.logintable td i {
+    align-self: center;
+    position: relative;
+    right: 151px;
+    text-align: center;
+}
+
+h4.roomsSectionTitle + table.formtable td button#Reports, h4.roomsSectionTitle + table + table.formtable td button#ReportsDetails {
+    margin: 0 0 0 -13px;
+}
+
+.ratification-div td.chamber-td-alignment + td input#StartDate, div.t-picker-wrap input#EndDate {
+    margin-right: 30px;
+}
+
+.ratification-div div.t-picker-wrap input#StartDateDetails {
+    margin-right: 80px;
+}
+
+.ratification-div .t-icon.t-icon-calendar {
+    position: relative;
+    right: 55px;
+}
+
+input#StartDateDetails + span .t-icon.t-icon-calendar {
+    right: 106px;
+}
+/*commercial tasdeq result header*/
+.printhead.Acenter {
+    height: 70px;
+}
+
+/*fix for credentials at governemntal sectors services page*/
+div.health-service .fright.lab-name {
+    width: 100%;
+}
+
+/*tafweed success message*/
+div.btndiv.bottom-btns-wrapper input#printPage + br + p.fleft[style="color: Red"] {
+    min-height: 25px !important;
+    height: auto !important;
+    width: 870px !important;
+    color: #fff !important;
+    font-size: 13px;
+    padding: 10px 50px 10px 20px;
+    margin: 0 0 20px;
+    position: relative;
+    line-height: 24px;
+    display: block;
+    margin: 5px 0 10px;
+    background: url(../images/successmsg.png) no-repeat right 10px #2f931c !important;
+}
+
+/*visa delegation back button style*/
+.prevbtn.FL.delegation-back-btn {
+    margin-top: 5px;
+}
+/*new user commercial chamber*/
+.new-user .editor-label {
+    float: right;
+    width: 17%;
+    font: 13px/20px tahoma;
+}
+
+.new-user .editor-field {
+    float: right;
+    width: 83%;
+}
+
+.new-user .editor-label, .editor-field {
+    margin-bottom: 12px;
+}
+
+.new-user .editor-field > input[type="text"] {
+    height: 25px;
+    width: 460px;
+}
+
+input#UsrMobail + h5.residenceInfo-PhoneHint {
+    width: 60%;
+}
+
+input#SponserID + .field-validation-error {
+    right: 230px;
+    position: relative;
+    top: -32px;
+}
+
+.formtable input[name="SponserIqamaDate"] + p {
+    float: right;
+    margin: 4px 7px 0 0;
+}
+
+input#SponserIqamaDate {
+    float: right;
+}
+
+.formtable input[name="SponserBirthDate"] + p {
+    float: right;
+    margin: 4px 7px 0 0;
+}
+
+input#SponserBirthDate {
+    float: right;
+}
+
+.formtable input[name="SponserEmail"] + p {
+    float: right;
+    margin: 4px 7px 0 0;
+}
+
+input#SponserEmail {
+    float: right;
+}
+
+/*wizard popup screen - company - commercial visit visa request*/
+div#Window div.t-window-actions {
+    background: none;
+    margin: 8px 0 0 10px;
+    left: 15px;
+    top: 2px;
+    right: auto;
+}
+
+/*home -page enahcement*/
+
+.persons-title, .orgs-title {
+    height: 104px;
+    background: #BB9F60;
+}
+
+.persons-title {
+    background: url('../Images/citizens_residents_tab_bg.png') no-repeat 0 0 #BB9F60;
+}
+
+.orgs-title {
+    background: url('../Images/sectors_tab_bg.png') no-repeat 0 0 #BB9F60;
+}
+
+.homebtns a.persons:hover div.persons-title {
+    background: url('../Images/citizens_residents_tab_bg.png') no-repeat 0 0 #666;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.homebtns a.orgs:hover div.orgs-title {
+    background: url('../Images/sectors_tab_bg.png') no-repeat 0 0 #666;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+/*lightbox styles services page*/
+.t-window-content {
+    direction: rtl !important;
+}
+
+div.t-window-content {
+    margin: 20px !important;
+}
+
+.t-window-content.t-content h3 {
+    font: 13px droid_arabic_kufiregular !important;
+}
+
+#Window.services-popup .t-window-actions.t-header {
+    right: 510px !important;
+    top: 3px;
+}
+
+.FR.mandatory-fields-note {
+    white-space: nowrap;
+}
+
+
+
+.template-select {
+    width: 216px !important;
+}
+
+/* print-style */
+.print-bold {
+    font: normal 12px droid_arabic_kufibold,Tahoma !important;
+}
+
+.formtable tr td.print-bold, .formtable tr td.table-label {
+    width: 25% !important;
+}
+/*.formtable tr td.print-bold{padding-right:140px !important;width:auto !important;}
+.formtable tr td.print-bold:first-child{padding-right:0 !important}
+.formtable tr td.table-label{padding-right:140px !important;width:auto !important;}
+.formtable tr td.table-label:first-child{padding-right:0 !important}*/
+
+
+.print-th td, .print-th th {
+    font: normal 12px droid_arabic_kufibold,Tahoma !important;
+}
+
+.print-table {
+    margin: 20px 0;
+}
+
+.print-title {
+    border: 1px solid #BB9F60;
+    border-width: 1px 0;
+}
+/*.print-dots {font-weight:normal;color:#666;}*/
+@media print {
+    .container {
+        width: auto !important;
+    }
+
+    form div.innerbox-mid h3.form-title {
+        border: 1px solid #BB9F60;
+        border-width: 1px 0;
+    }
+
+    .gridstyle tr:first-child td {
+        font: normal 12px droid_arabic_kufibold,Tahoma !important;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px;
+        border-top: 1px solid #666;
+        clear: both;
+        margin-top: 40px;
+    }
+
+    .field-validation-valid {
+        margin-top: 0 !important;
+    }
+
+    .gridstyle {
+        margin-top: 30px;
+    }
+}
+
+/* change password fix */
+.changepass-fix .welcomeuser {
+    margin-top: -40px;
+}
+
+.welcome-user-icon {
+    padding: 5px 5px 0;
+}
+
+.changepass-fix h3.form-title {
+    float: none !important;
+    margin-top: 0 !important;
+}
+
+.changepass-fix .breadcrumb {
+    margin-bottom: 2px !important;
+    padding: 1px 0 !important;
+}
+
+.health-service-inner-box.changepass-fix .welcomeuser {
+    margin-top: 0px;
+}
+
+.changepass-margin {
+    padding-left: 10px !important;
+}
+
+/* application result with image */
+.results-sub .formtable {
+    width: 80%;
+}
+
+    .results-sub .formtable td {
+        margin: 0;
+    }
+
+    .results-sub .formtable .table-label + td {
+        width: 300px;
+    }
+
+    .results-sub .formtable h4 {
+        font: normal 18px/18px 'droid_arabic_kufiregular',arial;
+        color: #a9873c;
+        padding: 0 4px;
+    }
+
+/* min height for the body */
+div#main {
+    min-height: 400px;
+}
+
+/* required field issue in invitation */
+.invitation-fix input#SponserID + .field-validation-error {
+    right: auto !important;
+    top: auto !important;
+}
+
+/* chamber-table */
+.chamber-table .check-box {
+    min-height: 0 !important;
+    background: none !important;
+    border: 0px none !important;
+}
+
+/* tasdeek-td */
+.tasdeek-td {
+    width: 100% !important;
+    padding: 20px 0 !important;
+}
+
+.tasdeek-table {
+    width: 100% !important;
+}
+
+.style14 {
+    color: b6b6b6;
+}
+
+.t-numeric {
+    font-size: 14px;
+}

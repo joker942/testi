@@ -1,0 +1,196 @@
+﻿/* styles imported from old stylesheet */
+
+/* news archive */
+.Icon2004 { width:202px; height:68px; float:right; margin:5px; background:url(/MOFADesign/MOFA-Images/All-Icons.png) -647px 0 no-repeat; }
+.Icon2005 { width:202px; height:68px; float:right; margin:5px; background:url(/MOFADesign/MOFA-Images/All-Icons.png) -435px 0 no-repeat; }
+.Icon2006 { width:202px; height:68px; float:right; margin:5px; background:url(/MOFADesign/MOFA-Images/All-Icons.png) -221px 0 no-repeat; }
+.Icon2007 { width:202px; height:68px; float:right; margin:5px; background:url(/MOFADesign/MOFA-Images/All-Icons.png) 0 0 no-repeat; }
+.Icon2008 { width:202px; height:68px; float:right; margin:5px; background:url(/MOFADesign/MOFA-Images/All-Icons.png) -647px -76px no-repeat; }
+.Icon2009 { width:202px; height:68px; float:right; margin:5px; background:url(/MOFADesign/MOFA-Images/All-Icons.png) -435px -76px no-repeat; }
+.Icon2010 { width:202px; height:68px; float:right; margin:5px; background:url(/MOFADesign/MOFA-Images/All-Icons.png) -221px -76px no-repeat; }
+.Icon2011 { width:202px; height:68px; float:right; margin:5px; background:url(/MOFADesign/MOFA-Images/All-Icons.png) 0 -76px no-repeat; }
+
+/* live broadcasting */
+.LiveBroadcasting{ height:356px; margin:20px 0 0 0; background:url('/MOFADesign/MOFA-Images/LiveBroadcasting.png') no-repeat;}
+
+/* SeraZatia */
+.SeraZatia{ width:100%; float:right; background:#ebebeb; border-bottom:3px #fff solid; margin-top:5px;}
+.SeraZatia2{ width:100%; float:right;  border-bottom:3px #fff solid; margin-top:5px;background:#bb9f60}
+.TitlePolite{width:30%; padding:10px 20px; color:#a9873c; float:right; text-align:right;font-family:'droid_arabic_kufiregular',arial;}
+.TitlePolite2{width:42%; padding:10px 20px; color:#fff; float:right; text-align:right; background:#bb9f60 }
+.Details{  text-align:right; width:57%; background:#ebebeb; float:right;line-height:30px; padding:10px 20px; border-right:6px #fff solid; }
+.Details2{  text-align:right; width:57%; background:#ebebeb; float:right;line-height:30px; padding:10px 20px; border-right:6px #fff solid; }
+.Details3{  text-align:right; width:43.5%; background:#ebebeb; float:right;line-height:30px; padding:10px 20px; border-left:9px #fff solid; }
+.Details4{  text-align:right; width:43%; background:#ebebeb; float:right;line-height:30px; padding:10px 20px; }
+.MinImages{ width:100%; text-align:center; }
+.MinAlighn{ width:80%; text-align:center; margin:0 auto}
+.MarginAlighn{ width:700px; margin:0 auto; text-align:center}
+.PoolBanner{ width:292px; height:55px; margin:0 auto; background:url("/MOFADesign/MOFA-Images/BannerPool.png") no-repeat center top; }
+
+
+/* ===========================================import UID2 styles==================================    */
+/*.MOFA_Directory_box_R a{float:right;margin-bottom:12px;margin-left:12px;min-height:50px;padding-top:15px;width:298px;background:#d6d6d6;text-align:right;font-family:droid_arabic_kufibold;color:#333}
+.MOFA_Directory_box_R i{float:right;font-size:190%;margin-left:30px;margin-right:20px}
+.MOFA_Directory_box_R{display:inline-block;float:right}
+*/
+.MOFA_Directory_Colum {float:right;width:45%;padding-left:20px;}
+.MOFA_Directory_Tittel_1,.MOFA_Directory_Tittel_2,.MOFA_Directory_Tittel_3,.MOFA_Directory_Tittel_4,.MOFA_Directory_Tittel_5 {font:normal 169.2%/32px 'droid_arabic_kufiregular',arial;color:#a9873c;padding:15px 0px}
+.MOFA_Directory_box_R {padding-right:10px;background:url("../images/bullets.png") no-repeat scroll right 7px;}
+.page-article.article-right a,.page-article.article-right h3{color:#666}
+.page-article.article-right a:hover{color:#a9873c}
+ 
+
+/*weather styles*/
+.BigBox-Home4{min-height:240px;height:auto !important;height:240px;width:700px}
+.ContinentsTopBarTBL td{padding:8px;width:90px;white-space:nowrap;text-align:center;background:transparent url('../Pages/images/sep_line.gif') no-repeat left center;font-size:11px !important;font-family:Tahoma !important}
+.weather-pages .DropDownDiv span.select2{display:none}
+.weather-pages .ms-webpartzone-cell{margin:0}
+.hide-element{display:none}
+.weather-pages .TBLLinksCountry h1,.weather-pages .TitleContinents h1{font-size:100%;color:#333}
+
+
+/*end of weather styles*/
+/*content pages gray boxes pages styles*/
+.head-of-missions-container li,.E-participation li,.mofa-social-network li,.attestation li,.saudi-national-abroad-services li,.government-economic-sites li,.how-to-reach-MOFA li,.box-list li{display:inline-block;list-style:none;float:right;background:none !important}
+.head-of-missions-container li a,.E-participation li a,.mofa-social-network li a,.attestation li a,.saudi-national-abroad-services li a,.government-economic-sites li a,.how-to-reach-MOFA li a,.box-list li a{float:right;margin-bottom:12px;margin-left:12px;padding-top:15px;width:298px;background:#d6d6d6;text-align:right;font-family:droid_arabic_kufibold;color:#333}
+.head-of-missions-container li i,.E-participation li i,.mofa-social-network li i,.attestation li i,.saudi-national-abroad-services li i,.government-economic-sites li i,.how-to-reach-MOFA li i,.box-list li i{float:right;font-size:190%;margin-left:30px;margin-right:20px;height:50px}
+.head-of-missions-container span,.E-participation span,.mofa-social-network span,.attestation span,.saudi-national-abroad-services span,.government-economic-sites span,.how-to-reach-MOFA span,.box-list span{float:right;width:200px}
+
+
+
+/*end of heads of missions styles*/
+.MOFA-mansobi{ width:79%/*374px*/; height:111px; float:right; margin-bottom:0px; background:url("/MOFADesign/MOFA-Images/MOfA-Email.gif") no-repeat}
+input.GoBtn,.gridbtn{background: #bb9f60!important;color: #fff!important;font-size: 13px;padding:2px 20px!important;border-left: 1px solid #c2ab73!important;display: inline-block!important;line-height: 22px!important;float:left;font-family:'droid_arabic_kufiregular'!important}
+/*.TitlePolite{color:#a9873c}*/
+.serviceLinks a{color:white!important;font-size:12px!important}
+/**/
+.Tittel-Content.floatnone{font-family:droid_arabic_kufiregular;color:#a9873c;font-size:100%;border-bottom:1px solid #333;padding:0 0 10px;margin:0 !important;width:100% !important;display:inline-block}
+.ptag{clear:both;float:right;font-size:100% !important;margin-bottom:40px;width:100%;font-family:Tahoma;color:#2d2d2d}
+.ptag li{margin:0 !important;width:98% !important;clear:none !important;list-style:none}
+.ptag.nlist i{margin-left:8px;float:right;margin-top:5px}
+
+/**/
+
+.another-info.foreign-missions-ask-help li{background:none;float:right;font-family:droid_arabic_kufiregular}
+.another-info.foreign-missions-ask-help {font-size:13px;}
+.another-info.foreign-missions-ask-help i{font-size:153.8%;float:right;margin-left:10px;vertical-align:middle}
+.another-info.foreign-missions-ask-help span{float:right}
+.another-info.foreign-missions-ask-help span.info-details{width:auto}
+
+/*==============================================
+add .box-list li a to line 117,110,98,91 rules
+
+=================================================*/
+.weather-pages .DataTable table td.DegreeTDTitle{padding:0!important} /*fix to main.css line 618*/
+.head-of-missions-container lul, .E-participation ul, .mofa-social-network ul, .attestation ul, .saudi-national-abroad-services ul, .government-economic-sites ul, .how-to-reach-MOFA ul, .box-list ul{margin-right: 40px;}
+
+.head-of-missions-container li a, .E-participation li a, .mofa-social-network li a, .attestation li a, .saudi-national-abroad-services li a, .government-economic-sites li a, .how-to-reach-MOFA li a, .box-list li a{display:block;padding-bottom:10px}
+.mofa-social-network span.clearfix {clear:both;float:none;display:block;}
+.head-of-missions-container span, .E-participation span, .mofa-social-network span, .attestation span, .saudi-national-abroad-services span, .government-economic-sites span, .how-to-reach-MOFA span, .box-list span{width:231px!important;} /*fix import line 117*/
+.head-of-missions-container li i, .E-participation li i, .mofa-social-network li i, .attestation li i, .saudi-national-abroad-services li i, .government-economic-sites li i, .how-to-reach-MOFA li i, .box-list li i{margin-left:20px!important}/*fix import line 110*/
+.service-details-list{display:inline-block;width:97%!important}
+.title-all-letters h5, .title-world-map h5{height:40px;float:right;width:100%}
+.AdvPage {float: right;margin: 0 4px 10px 0;border: 1px #005b3d solid;}
+.head-of-missions-container li a:hover, .E-participation li a:hover, .mofa-social-network li a:hover, .attestation li a:hover, .saudi-national-abroad-services li a:hover, .government-economic-sites li a:hover, .how-to-reach-MOFA li a:hover, .box-list li a:hover{transition:all 0.3s ease-in-out;background:#BB9F60;color:white}
+
+
+/*faq styles*/
+.Tittel-Content.floatnone{font-family:droid_arabic_kufiregular;color:#a9873c;font-size:100%;border-bottom:1px solid #333;padding:0 0 10px;margin:0 !important;width:100% !important;display:inline-block}
+.ptag{clear:both;float:right;font-size:100% !important;margin-bottom:40px;width:100%;font-family:Tahoma;color:#2d2d2d}
+.ptag li{margin:0 !important;width:98% !important;clear:none !important;list-style:none}
+.ptag.nlist i{margin-left:8px;float:right;margin-top:5px}
+
+
+/* ===========================================END of import UID2 styles==================================    */
+
+/* ===========================================END of import UID3 styles==================================    */
+.EstbianUl {  float:none; border-bottom:1px solid #DDCFAF; margin:10px 0 15px; padding:5px 0px 15px 0px; overflow:hidden }
+.EstbianUl ul {  float:none; display:block; list-style-type:none; margin:0; padding:0 }
+.EstbianUl ul li { text-align:right;  line-height:22px; text-decoration:none; margin:0; padding:5px 0px 5px 0;font-family:'droid_arabic_kufiregular', Arial, Helvetica, sans-serif }
+.EstbianUl ul li span{ color:#a9873c;font-family:tahoma}
+.EstbianUl ul li a { color:#a9873c; text-decoration:none;;font-family:tahoma }
+.EstbianUl ul li a:hover { color:#333;}
+
+.EstbianC {text-align: right;line-height: 18px;text-decoration: none; margin: 0 ; }
+.EstbianC span{padding: 5px 10px; background: #ebebeb; color: #666!important; font-size: 11px; display: inline-block; margin: 0 0 0 10px; min-width: 170px;}
+.li_Website2 {background: none}
+.EstbianUl ul .li_Website2 a.BtnH{background: #bb9f60;color: #fff;font-size: 13px;padding:2px 20px;border-left: 1px solid #c2ab73;display: inline-block;line-height: 22px;float:left;font-family:'droid_arabic_kufiregular'}
+.EstbianUl ul .li_Website4 {background: none;font-family:tahoma;padding:10px 0}
+.EstbianUl ul li a {color: #A9873C;text-decoration: none;font-family:'droid_arabic_kufibold', Arial, Helvetica, sans-serif;}
+/* =========================================== END of import UID3 styles==================================    */	
+ 
+/*events box calendar from live portal*/
+.level-band { background-color:#fafafa !important; }
+.level-section { margin-bottom:3px !important; width:100%; font-size:16px!important; }
+.link-item { background:#e7ecea url(/MOFAImages/MOFA_Sub_Polit_2.gif) Right center no-repeat !important; color:aqua !important; display:block !important; height:37px !important; text-indent:30px !important }
+.link-item a:hover { background:#00573d url(/MOFAImages/MOFA_Sub_Polit_1.gif) Right center no-repeat !important; color:#eedbb1 !important; display:block; font:bold 1.17em Arial, Helvetica, sans-serif !important; height:37px !important; padding-top:10px }
+.validation-text { color:red; font-family:Tahoma; font-size:8pt }
+.sitemapHeader { background-color:green!important; width:50px; }
+.MsoNormalTable ul a:hover, .PagesLyout_Box_breadcrumb a:hover { color:#b58215 }
+.MsoNormalTable ul a { color:#00573d; font:bold 1.17em Arial }
+.linkback-ev { color:#00573d; direction:ltr; float:left; font-family:Arial; font-size:14px !important; font-weight:700; text-align:left; vertical-align:middle }
+.linkback-ev a:hover { color:#B58215; font-family:Arial; font-size:14px !important; font-weight:700; text-decoration:underline }
+.linkback-ev a:link { color:#00573d; font-family:Arial; font-size:14px !important; font-weight:700; text-decoration:none }
+.linkback-ev a:visited, .Butt-format a:link, .Butt-format a:visited, .Butt-format a:hover, .Butt-MailingList a:link, .Butt-MailingList a:visited, .Butt-MailingList a:hover, .Butt-DisplayResult a:link, .Butt-DisplayResult a:visited, .Butt-DisplayResult a:hover, .Butt-DisplayResult-semail a:link, .Butt-DisplayResult-semail a:visited, .Butt-DisplayResult-semail a:hover, .Butt-format-Archive a:link, .Butt-format-Archive a:visited, .Butt-format-Archive a:hover, .Butt-format-vote-mail a:link, .Butt-format-vote-mail a:visited, .Butt-format-vote-mail a:hover, .Butt-format-vote-2 a:hover { text-decoration:none; }
+.Butt-format-vote, .Butt-format-vote-mail { border:0; font:bold 13px Arial !important; color:#eedbb1; height:26px; margin-top:0 !important; text-align:center; vertical-align:middle !important; width:66px; padding-right:5px; }
+ 
+/*end of events box calendar from live portal*/ 
+/*events calendar new styles*/
+.events-calendar-dates{background:none repeat scroll 0 0 #c9b280;border:1px solid;display:inline-block;font-family:droid_arabic_kufiregular;text-align:center;width:100px}
+tr.navigationRow+tr>td{border:1px solid;background:#d6d6d6}
+tr.navigationRow+tr td{font-family:droid_arabic_kufiregular}
+.DayCellCssClass1:hover{background:#c9b280}
+.DayCellCssClass1,.DayNameRowCss{text-align:center}
+.EventsViewImg{margin-left:15px;width:160px}
+.EventNameAr.tittel>a{float:right;font-family:droid_arabic_kufiregular;margin-bottom:10px}
+.EventBox-top.tittel{background:none repeat scroll 0 0 #fff;color:#a9873c;font:184.6%/215.4% 'droid_arabic_kufibold',arial}
+.EventBox-Bottom{background:0;height:7px}
+.EventBoxC{width:200px}
+.more-events{font-family:droid_arabic_kufiregular}
+.Event-imgS{float:right;width:160px}
+.EventBox.floatR{width:480px}
+.EventBoxC-top.tittel{font-family:droid_arabic_kufibold}
+#popupeventdiv{background:none repeat scroll 0 0 #c9b280}
+#popupeventdiv a{color:white;display:inline-block;padding:10px}
+.EventCalEventDay{background:none repeat scroll 0 0 #c9b280;color:#333;display:block;text-align:center;cursor:pointer}
+
+/*paging in events*/
+td.NextTD input.NextBtn,td.PrevTD input.PrevBtn {background: url("/MOFADesign/MOFA-Images/Ar/PG_PreviousArow.gif") no-repeat scroll 0 0 transparent;border: 0 none !important;display: inline-block;float: right;margin:10px 0!important;padding: 0 !important;min-width: 20px !important;}
+td.PrevTD input.PrevBtn{    background: url("/MOFADesign/MOFA-Images/Ar/PG_NextArow.gif") no-repeat scroll 0 0 transparent;position:relative;right:-5px;}
+/*end of events paging*/
+
+/* polls */
+.Pool2{border:none!important;background:none!important} /*update for line 29 import.css*/
+.Pool2 .paddingV input[type="submit"]:hover{border:1px solid #ABABAB!important}
+.head-of-missions-container ul, .E-participation ul, .mofa-social-network ul, .attestation ul, .saudi-national-abroad-services ul, .government-economic-sites ul, .how-to-reach-MOFA ul, .box-list ul {margin-right: 40px;float:right;}
+.Table-control input[type="submit"]:hover,input[id$='BtnSubmit']:hover{background:#7D6836 !important}
+
+/*tenders styles*/
+.mytable { width: 700px; padding:0; margin: 0; text-align:right;margin-bottom:10px }
+.mytable th,th.specalt,th.nobg{ font: normal 100% droid_arabic_kufiregular; color:#333;text-align: right; padding: 6px 6px 6px 12px; background:#EBEBEB; border-bottom:2px solid white }
+th.nobg,th.spec,th.specalt {border-bottom:2px solid white ; border-top: 0; border-right: 0; background: #BB9F60; font-size:100%;font-weight:normal;color:white;font-family:droid_arabic_kufiregular;border-bottom:2px solid white }
+.mytable td {background: #EBEBEB; padding: 6px 6px 6px 12px; color: #333; font:normal 100% droid_arabic_kufiregular;border-bottom:2px solid white  }
+td.alt { background: #EBEBEB; color: #333; text-align:right;border-bottom:2px solid white  }
+/*end of tenders styles*/
+
+
+
+/*faq styles*/
+.FAQ_Tittel{font-family:droid_arabic_kufiregular;font-size:100%!important;float:right;clear:both;margin-top:0px;color:#9C771F}
+.FAQ_Separetor {clear: both;height: 50px;}
+.FAQ_Desc{clear:both}
+.FAQ_Desc div, .FAQ_Desc p {float: right;width: 92%;margin:0;padding:0;}
+.Butt-format-vote:hover{background:#7D6836!important}
+.government-economic-sites li {padding: 0 !important;}
+.FAQ_Tittel i, .FAQ_Desc i {clear: both;display: block;float: right;margin-left: 10px;margin-top: 4px;vertical-align: top;color:black;font-size:16px;}
+
+
+/*end of FAQ*/
+
+/* mofa-table */
+.mofa-table tr td {background:#ebebeb !important;color:#333 !important;padding: 5px !important;border: 2px solid #FFFFFF !important;}
+.mofa-table tr td span , .mofa-table tr td div {font-family:'Tahoma' !important;font-size:100% !important;font-weight:normal !important;color:#333 !important;text-align:right !important;}
+.mofa-table tr td b, .mofa-table tr td strong {font-weight:normal !important;color:#333 !important;}
+.mofa-table tr:first-child td{background:#bb9f60 !important;color:#fff !important;}
+.mofa-table tr:first-child td span , .mofa-table tr:first-child td div {font-family:'droid_arabic_kufibold' !important;font-size:112% !important;font-weight:normal !important;color:#fff !important;}
+.mofa-table tr td div {margin:0 !important;}
